@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Phạm Đăng Chính</title>
-    <link>http://example.org/</link>
+    <link>https://ch1nhpd.github.io/</link>
     <description>Recent content on Phạm Đăng Chính</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
@@ -16,7 +16,7 @@
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 16 Sep 2021 22:22:22 +0700</lastBuildDate>
     
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ch1nhpd.github.io/index.xml" rel="self" type="application/rss+xml" />
     
       
       

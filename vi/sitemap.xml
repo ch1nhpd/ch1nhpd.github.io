@@ -2,151 +2,151 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://ch1nhpd.github.io/</loc>
     <lastmod>2021-09-16T22:22:22+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/"
+                href="https://ch1nhpd.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://example.org/"
+                href="https://ch1nhpd.github.io/"
                 />
   </url><url>
-    <loc>http://example.org/archive/</loc>
+    <loc>https://ch1nhpd.github.io/archive/</loc>
     <lastmod>2021-09-16T22:22:22+07:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://ch1nhpd.github.io/posts/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/shortcode/</loc>
+    <loc>https://ch1nhpd.github.io/tags/shortcode/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/shortcodes/</loc>
+    <loc>https://ch1nhpd.github.io/posts/shortcodes/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://ch1nhpd.github.io/tags/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/tags/"
+                href="https://ch1nhpd.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://example.org/tags/"
+                href="https://ch1nhpd.github.io/tags/"
                 />
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://ch1nhpd.github.io/categories/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/categories/"
+                href="https://ch1nhpd.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://example.org/categories/"
+                href="https://ch1nhpd.github.io/categories/"
                 />
   </url><url>
-    <loc>http://example.org/tags/css/</loc>
+    <loc>https://ch1nhpd.github.io/tags/css/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/html/</loc>
+    <loc>https://ch1nhpd.github.io/tags/html/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/markdown/</loc>
+    <loc>https://ch1nhpd.github.io/tags/markdown/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/markdown-syntax/</loc>
+    <loc>https://ch1nhpd.github.io/posts/markdown-syntax/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/series/</loc>
+    <loc>https://ch1nhpd.github.io/series/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/series/"
+                href="https://ch1nhpd.github.io/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://example.org/series/"
+                href="https://ch1nhpd.github.io/series/"
                 />
   </url><url>
-    <loc>http://example.org/categories/syntax/</loc>
+    <loc>https://ch1nhpd.github.io/categories/syntax/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/themes/</loc>
+    <loc>https://ch1nhpd.github.io/tags/themes/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/themes/</loc>
+    <loc>https://ch1nhpd.github.io/categories/themes/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/series/themes-guide/</loc>
+    <loc>https://ch1nhpd.github.io/series/themes-guide/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/privacy/</loc>
+    <loc>https://ch1nhpd.github.io/tags/privacy/</loc>
     <lastmod>2019-12-19T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/rich-content/</loc>
+    <loc>https://ch1nhpd.github.io/posts/rich-content/</loc>
     <lastmod>2019-12-19T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/shortcodes/</loc>
+    <loc>https://ch1nhpd.github.io/tags/shortcodes/</loc>
     <lastmod>2019-12-19T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/hugo/</loc>
+    <loc>https://ch1nhpd.github.io/tags/hugo/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/hugo/</loc>
+    <loc>https://ch1nhpd.github.io/categories/hugo/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/syntax-highlight/</loc>
+    <loc>https://ch1nhpd.github.io/posts/syntax-highlight/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/math-typesetting/</loc>
+    <loc>https://ch1nhpd.github.io/posts/math-typesetting/</loc>
     <lastmod>2019-12-17T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/amoji/</loc>
+    <loc>https://ch1nhpd.github.io/tags/amoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/bamoji/</loc>
+    <loc>https://ch1nhpd.github.io/tags/bamoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/emoji/</loc>
+    <loc>https://ch1nhpd.github.io/tags/emoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/emoji-support/</loc>
+    <loc>https://ch1nhpd.github.io/posts/emoji-support/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/gamoji/</loc>
+    <loc>https://ch1nhpd.github.io/tags/gamoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/namoji/</loc>
+    <loc>https://ch1nhpd.github.io/tags/namoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/test-chartjs/</loc>
+    <loc>https://ch1nhpd.github.io/posts/test-chartjs/</loc>
     <lastmod>2019-11-18T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/diagram/</loc>
+    <loc>https://ch1nhpd.github.io/categories/diagram/</loc>
     <lastmod>2019-11-18T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/gallery/cartoon/</loc>
+    <loc>https://ch1nhpd.github.io/gallery/cartoon/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/gallery/</loc>
+    <loc>https://ch1nhpd.github.io/gallery/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/gallery/photo/</loc>
+    <loc>https://ch1nhpd.github.io/gallery/photo/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://ch1nhpd.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/index/</loc>
+    <loc>https://ch1nhpd.github.io/tags/index/</loc>
   </url>
 </urlset>

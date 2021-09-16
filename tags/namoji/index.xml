@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>namoji on Phạm Đăng Chính</title>
-    <link>http://example.org/tags/namoji/</link>
+    <link>https://ch1nhpd.github.io/tags/namoji/</link>
     <description>Recent content in namoji on Phạm Đăng Chính</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
@@ -16,17 +16,17 @@
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 16 Dec 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/namoji/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ch1nhpd.github.io/tags/namoji/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Emoji Support</title>
-        <link>http://example.org/posts/emoji-support/</link>
+        <link>https://ch1nhpd.github.io/posts/emoji-support/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
         <atom:modified>Mon, 16 Dec 2019 12:00:06 +0900</atom:modified>
-        <guid>http://example.org/posts/emoji-support/</guid>
+        <guid>https://ch1nhpd.github.io/posts/emoji-support/</guid>
         <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
         
         <dc:creator>Kim</dc:creator>

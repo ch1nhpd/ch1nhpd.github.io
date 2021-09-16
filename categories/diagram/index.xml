@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>diagram on Phạm Đăng Chính</title>
-    <link>http://example.org/categories/diagram/</link>
+    <link>https://ch1nhpd.github.io/categories/diagram/</link>
     <description>Recent content in diagram on Phạm Đăng Chính</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
@@ -16,21 +16,21 @@
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 18 Nov 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/categories/diagram/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ch1nhpd.github.io/categories/diagram/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Chart support</title>
-        <link>http://example.org/posts/test-chartjs/</link>
+        <link>https://ch1nhpd.github.io/posts/test-chartjs/</link>
         <pubDate>Mon, 18 Nov 2019 12:00:06 +0900</pubDate>
         <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
         <atom:modified>Mon, 18 Nov 2019 12:00:06 +0900</atom:modified>
-        <guid>http://example.org/posts/test-chartjs/</guid>
+        <guid>https://ch1nhpd.github.io/posts/test-chartjs/</guid>
         <description>{&amp;quot;type&amp;quot;: &amp;quot;bar&amp;quot;,&amp;quot;data&amp;quot;: {&amp;quot;labels&amp;quot;: [&amp;quot;One&amp;quot;, &amp;quot;Two&amp;quot;, &amp;quot;Three&amp;quot;, &amp;quot;Four&amp;quot;, &amp;quot;Five&amp;quot;, &amp;quot;Six&amp;quot;],&amp;quot;datasets&amp;quot;: [{&amp;quot;label&amp;quot;: &amp;quot;# of Votes&amp;quot;,&amp;quot;data&amp;quot;: [12, 19, 3, 5, 3, 8]}]}}{&amp;quot;type&amp;quot;: &amp;quot;line&amp;quot;,&amp;quot;data&amp;quot;: {&amp;quot;labels&amp;quot;: [&amp;quot;One&amp;quot;, &amp;quot;Two&amp;quot;, &amp;quot;Three&amp;quot;, &amp;quot;Four&amp;quot;, &amp;quot;Five&amp;quot;, &amp;quot;Six&amp;quot;],&amp;quot;datasets&amp;quot;: [{&amp;quot;label&amp;quot;: &amp;quot;# of Votes&amp;quot;,&amp;quot;data&amp;quot;: [12, 19, 3, 5, 2, 3],&amp;quot;backgroundColor&amp;quot;:&amp;quot;transparent&amp;quot;,&amp;quot;borderColor&amp;quot;:&amp;quot;orange&amp;quot;},{&amp;quot;label&amp;quot;: &amp;quot;Some other set&amp;quot;,&amp;quot;data&amp;quot;: [15, 8, 13, 5, 5, 9],&amp;quot;backgroundColor&amp;quot;:&amp;quot;transparent&amp;quot;,&amp;quot;borderColor&amp;quot;:&amp;quot;#44ccff&amp;quot;}]}}</description>
         
         <dc:creator>Phạm Đăng Chính</dc:creator>
-        <media:content url="http://example.orgimages/feature1/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://ch1nhpd.github.io/images/feature1/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
