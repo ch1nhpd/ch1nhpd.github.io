@@ -237,46 +237,6 @@ We need goldmark katex entension which is not yet we have:
       </item>
       
       <item>
-        <title>Emoji Support</title>
-        <link>https://ch1nhpd.github.io/posts/emoji-support/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        <atom:modified>Mon, 16 Dec 2019 12:00:06 +0900</atom:modified>
-        <guid>https://ch1nhpd.github.io/posts/emoji-support/</guid>
-        <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-        
-        <dc:creator>Kim</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>emoji</category>
-            
-          
-            
-              <category>gamoji</category>
-            
-          
-            
-              <category>namoji</category>
-            
-          
-            
-              <category>bamoji</category>
-            
-          
-            
-              <category>amoji</category>
-            
-          
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Chart support</title>
         <link>https://ch1nhpd.github.io/posts/test-chartjs/</link>
         <pubDate>Mon, 18 Nov 2019 12:00:06 +0900</pubDate>
