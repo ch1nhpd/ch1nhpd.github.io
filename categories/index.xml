@@ -14,11 +14,47 @@
     <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
     <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Sep 2021 12:00:06 +0700</lastBuildDate>
     
         <atom:link href="https://ch1nhpd.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>script</title>
+        <link>https://ch1nhpd.github.io/categories/script/</link>
+        <pubDate>Sun, 19 Sep 2021 12:00:06 +0700</pubDate>
+        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+        
+        <guid>https://ch1nhpd.github.io/categories/script/</guid>
+        <description></description>
+        
+        <dc:creator>Phạm Đăng Chính</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>web</title>
+        <link>https://ch1nhpd.github.io/categories/web/</link>
+        <pubDate>Sun, 19 Sep 2021 12:00:06 +0700</pubDate>
+        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+        
+        <guid>https://ch1nhpd.github.io/categories/web/</guid>
+        <description></description>
+        
+        <dc:creator>Phạm Đăng Chính</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>syntax</title>

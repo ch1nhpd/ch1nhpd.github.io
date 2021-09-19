@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ch1nhpd.github.io/</loc>
-    <lastmod>2021-09-16T22:22:22+07:00</lastmod>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,20 +15,36 @@
                 href="https://ch1nhpd.github.io/"
                 />
   </url><url>
-    <loc>https://ch1nhpd.github.io/archive/</loc>
-    <lastmod>2021-09-16T22:22:22+07:00</lastmod>
+    <loc>https://ch1nhpd.github.io/categories/</loc>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ch1nhpd.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://ch1nhpd.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/challenge/</loc>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/posts/emdee-five-for-life-writeup-hackthebox/</loc>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/hackthebox/</loc>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/posts/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
   </url><url>
-    <loc>https://ch1nhpd.github.io/tags/shortcode/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/posts/shortcodes/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
+    <loc>https://ch1nhpd.github.io/categories/script/</loc>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,18 +56,20 @@
                 href="https://ch1nhpd.github.io/tags/"
                 />
   </url><url>
-    <loc>https://ch1nhpd.github.io/categories/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ch1nhpd.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://ch1nhpd.github.io/categories/"
-                />
+    <loc>https://ch1nhpd.github.io/tags/web/</loc>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/categories/web/</loc>
+    <lastmod>2021-09-19T12:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/archive/</loc>
+    <lastmod>2021-09-16T22:22:22+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/shortcode/</loc>
+    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/posts/shortcodes/</loc>
+    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/css/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>

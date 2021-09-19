@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>challenge on ch1nhpd</title>
+    <link>https://ch1nhpd.github.io/tags/challenge/</link>
+    <description>Recent content in challenge on ch1nhpd</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi</language>
+    <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
+    <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 19 Sep 2021 12:00:06 +0700</lastBuildDate>
+    
+        <atom:link href="https://ch1nhpd.github.io/tags/challenge/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Emdee five for life writeup HACK THE BOX</title>
+        <link>https://ch1nhpd.github.io/posts/emdee-five-for-life-writeup-hackthebox/</link>
+        <pubDate>Sun, 19 Sep 2021 12:00:06 +0700</pubDate>
+        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+        <atom:modified>Sun, 19 Sep 2021 12:00:06 +0700</atom:modified>
+        <guid>https://ch1nhpd.github.io/posts/emdee-five-for-life-writeup-hackthebox/</guid>
+        <description>Xin chào, hôm nay chúng ta cùng đến với một Challenge về mảng Web trên Hackthebox nhé!
+Ready!! Đây là giao diện của trang web khi mình bắt đầu truy cập.
+Qua đây cộng với phần mô tả của challenge thì chúng ta có thể biết việc của mình là phải encript chuỗi r4q6q5pBOCNyWXcqV0EHbằng thuật toán MD5.
+Mình đã thử encript sau đó submit nhưng kết quả nhận được là to slow!</description>
+        
+        <dc:creator>ch1nhpd</dc:creator>
+        <media:content url="https://ch1nhpd.github.io/images/posts/emdee.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>hackthebox</category>
+            
+          
+            
+              <category>challenge</category>
+            
+          
+        
+        
+          
+            
+              <category>web</category>
+            
+          
+            
+              <category>script</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
