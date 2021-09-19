@@ -14,7 +14,7 @@
     <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
     <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 19 Dec 2019 12:00:06 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Sep 2021 00:53:11 +0700</lastBuildDate>
     
         <atom:link href="https://ch1nhpd.github.io/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,9 +23,9 @@
       <item>
         <title>Rich Content</title>
         <link>https://ch1nhpd.github.io/posts/rich-content/</link>
-        <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
+        <pubDate>Sun, 19 Sep 2021 00:53:11 +0700</pubDate>
         <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        <atom:modified>Thu, 19 Dec 2019 12:00:06 +0900</atom:modified>
+        <atom:modified>Sun, 19 Sep 2021 00:53:11 +0700</atom:modified>
         <guid>https://ch1nhpd.github.io/posts/rich-content/</guid>
         <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
         

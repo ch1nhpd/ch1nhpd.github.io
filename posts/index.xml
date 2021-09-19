@@ -66,6 +66,34 @@ Mình đã thử encript sau đó submit nhưng kết quả nhận được là 
       </item>
       
       <item>
+        <title>Rich Content</title>
+        <link>https://ch1nhpd.github.io/posts/rich-content/</link>
+        <pubDate>Sun, 19 Sep 2021 00:53:11 +0700</pubDate>
+        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+        <atom:modified>Sun, 19 Sep 2021 00:53:11 +0700</atom:modified>
+        <guid>https://ch1nhpd.github.io/posts/rich-content/</guid>
+        <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+        
+        <dc:creator>Lee</dc:creator>
+        <media:content url="https://ch1nhpd.github.io/images/feature2/content.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>shortcodes</category>
+            
+          
+            
+              <category>privacy</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Shortcodes</title>
         <link>https://ch1nhpd.github.io/posts/shortcodes/</link>
         <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
@@ -147,34 +175,6 @@ javajavascript1  System.out.println(&amp;#39;Hello World!&amp;#39;);   1  c
               <category>Themes Guide</category>
             
           
-        
-      </item>
-      
-      <item>
-        <title>Rich Content</title>
-        <link>https://ch1nhpd.github.io/posts/rich-content/</link>
-        <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        <atom:modified>Thu, 19 Dec 2019 12:00:06 +0900</atom:modified>
-        <guid>https://ch1nhpd.github.io/posts/rich-content/</guid>
-        <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-        
-        <dc:creator>Lee</dc:creator>
-        <media:content url="https://ch1nhpd.github.io/images/feature2/content.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>shortcodes</category>
-            
-          
-            
-              <category>privacy</category>
-            
-          
-        
-        
         
       </item>
       
