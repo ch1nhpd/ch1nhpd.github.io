@@ -1,242 +1,278 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" 
-  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
-  xmlns:dc="http://purl.org/dc/elements/1.1/" 
-  xmlns:atom="http://www.w3.org/2005/Atom" 
-  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
-  xmlns:media="http://search.yahoo.com/mrss/">
-  <channel>
-    <title>Tags on ch1nhpd</title>
-    <link>https://ch1nhpd.github.io/tags/</link>
-    <description>Recent content in Tags on ch1nhpd</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>vi</language>
-    <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
-    <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
-    <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 19 Sep 2021 12:00:06 +0700</lastBuildDate>
-    
-        <atom:link href="https://ch1nhpd.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+ xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:atom="http://www.w3.org/2005/Atom" 
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+ xmlns:media="http://search.yahoo.com/mrss/">
+ <channel>
+  <title>Tags on ch1nhpd</title>
+  <link>https://ch1nhpd.github.io/tags/</link>
+  <description>Recent content in Tags on ch1nhpd</description>
+  <generator>Hugo -- gohugo.io</generator>
+  <language>vi</language>
+  <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
+  <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
+  <copyright>©2021, All Rights Reserved</copyright>
+  <lastBuildDate>Sun, 26 Sep 2021 15:00:06 +0700</lastBuildDate>
+  
+    <atom:link href="https://ch1nhpd.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+  
 
-      
-      <item>
-        <title>challenge</title>
-        <link>https://ch1nhpd.github.io/tags/challenge/</link>
-        <pubDate>Sun, 19 Sep 2021 12:00:06 +0700</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/challenge/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>hackthebox</title>
-        <link>https://ch1nhpd.github.io/tags/hackthebox/</link>
-        <pubDate>Sun, 19 Sep 2021 12:00:06 +0700</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/hackthebox/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>web</title>
-        <link>https://ch1nhpd.github.io/tags/web/</link>
-        <pubDate>Sun, 19 Sep 2021 12:00:06 +0700</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/web/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>privacy</title>
-        <link>https://ch1nhpd.github.io/tags/privacy/</link>
-        <pubDate>Sun, 19 Sep 2021 00:53:11 +0700</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/privacy/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>shortcodes</title>
-        <link>https://ch1nhpd.github.io/tags/shortcodes/</link>
-        <pubDate>Sun, 19 Sep 2021 00:53:11 +0700</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/shortcodes/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>shortcode</title>
-        <link>https://ch1nhpd.github.io/tags/shortcode/</link>
-        <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/shortcode/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>css</title>
-        <link>https://ch1nhpd.github.io/tags/css/</link>
-        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/css/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>html</title>
-        <link>https://ch1nhpd.github.io/tags/html/</link>
-        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/html/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>markdown</title>
-        <link>https://ch1nhpd.github.io/tags/markdown/</link>
-        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/markdown/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>themes</title>
-        <link>https://ch1nhpd.github.io/tags/themes/</link>
-        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/themes/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>hugo</title>
-        <link>https://ch1nhpd.github.io/tags/hugo/</link>
-        <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/hugo/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>index</title>
-        <link>https://ch1nhpd.github.io/tags/index/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-        
-        <guid>https://ch1nhpd.github.io/tags/index/</guid>
-        <description></description>
-        
-        <dc:creator>Phạm Đăng Chính</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-
+   
+   <item>
+    <title>Insecure deserialization</title>
+    <link>https://ch1nhpd.github.io/tags/insecure-deserialization/</link>
+    <pubDate>Sun, 26 Sep 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     
-  </channel>
+    <guid>https://ch1nhpd.github.io/tags/insecure-deserialization/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>PortSwigger Academy</title>
+    <link>https://ch1nhpd.github.io/tags/portswigger-academy/</link>
+    <pubDate>Sun, 26 Sep 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/portswigger-academy/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>web</title>
+    <link>https://ch1nhpd.github.io/tags/web/</link>
+    <pubDate>Sun, 26 Sep 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/web/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>challenge</title>
+    <link>https://ch1nhpd.github.io/tags/challenge/</link>
+    <pubDate>Sun, 19 Sep 2021 12:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/challenge/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>hackthebox</title>
+    <link>https://ch1nhpd.github.io/tags/hackthebox/</link>
+    <pubDate>Sun, 19 Sep 2021 12:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/hackthebox/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>privacy</title>
+    <link>https://ch1nhpd.github.io/tags/privacy/</link>
+    <pubDate>Sun, 19 Sep 2021 00:53:11 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/privacy/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>shortcodes</title>
+    <link>https://ch1nhpd.github.io/tags/shortcodes/</link>
+    <pubDate>Sun, 19 Sep 2021 00:53:11 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/shortcodes/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>shortcode</title>
+    <link>https://ch1nhpd.github.io/tags/shortcode/</link>
+    <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/shortcode/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>css</title>
+    <link>https://ch1nhpd.github.io/tags/css/</link>
+    <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/css/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>html</title>
+    <link>https://ch1nhpd.github.io/tags/html/</link>
+    <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/html/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>markdown</title>
+    <link>https://ch1nhpd.github.io/tags/markdown/</link>
+    <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/markdown/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>themes</title>
+    <link>https://ch1nhpd.github.io/tags/themes/</link>
+    <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/themes/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>hugo</title>
+    <link>https://ch1nhpd.github.io/tags/hugo/</link>
+    <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/hugo/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>index</title>
+    <link>https://ch1nhpd.github.io/tags/index/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/index/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+
+  
+ </channel>
 </rss>
