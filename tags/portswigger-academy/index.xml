@@ -21,14 +21,14 @@
 
    
    <item>
-    <title>LAB Developing a custom gadget chain for Java deserialization</title>
+    <title>LAB  Developing a custom gadget chain for Java deserialization</title>
     <link>https://ch1nhpd.github.io/posts/developing-a-custom-gadget-chain-for-java-deserialization/</link>
     <pubDate>Sun, 26 Sep 2021 15:00:06 +0700</pubDate>
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Sun, 26 Sep 2021 15:00:06 +0700</atom:modified>
     <guid>https://ch1nhpd.github.io/posts/developing-a-custom-gadget-chain-for-java-deserialization/</guid>
-    <description>Xin chào các bạn, hôm nay mình sẽ nói về một bài lab trên Web Security Academy. Bài này được họ đánh giá ở mức độ Expert nên khá là dài nhé! Cá bạn có thể thực hành ngay tại đây.
-Cùng bắt đầu ngay nhé Đầu tiên hãy bật Burp Suite lên, kết nối vào bài lab và đăng nhập vào tài khoản được cấp. Khi bạn dùng Burp để xem request đến /my-account các bạn sẽ thấy cookie của mình giống như hình dưới đây:</description>
+    <description>Xin chào các bạn, hôm nay mình sẽ nói về một bài lab trên Web Security Academy. Bài này được họ đánh giá ở mức độ Expert nên khá là dài nhưng không khó lắm đâu nhé! Cá bạn có thể thực hành ngay tại đây.
+Cùng bắt đầu ngay nhé Đầu tiên hãy bật Burp Suite lên, kết nối vào bài lab và đăng nhập vào tài khoản được cấp.</description>
     
     <dc:creator>ch1nhpd</dc:creator>
     <media:content url="https://ch1nhpd.github.io/images/posts/ldacgcfjd.png" medium="image"><media:title type="html">featured image</media:title></media:content>
