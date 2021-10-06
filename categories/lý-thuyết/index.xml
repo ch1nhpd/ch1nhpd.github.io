@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+ xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:atom="http://www.w3.org/2005/Atom" 
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+ xmlns:media="http://search.yahoo.com/mrss/">
+ <channel>
+  <title>lý thuyết on ch1nhpd</title>
+  <link>https://ch1nhpd.github.io/categories/l%C3%BD-thuy%E1%BA%BFt/</link>
+  <description>Recent content in lý thuyết on ch1nhpd</description>
+  <generator>Hugo -- gohugo.io</generator>
+  <language>vi</language>
+  <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
+  <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
+  <copyright>©2021, All Rights Reserved</copyright>
+  <lastBuildDate>Sun, 03 Oct 2021 15:00:06 +0700</lastBuildDate>
+  
+    <atom:link href="https://ch1nhpd.github.io/categories/l%C3%BD-thuy%E1%BA%BFt/index.xml" rel="self" type="application/rss+xml" />
+  
+
+   
+   <item>
+    <title>Server-side template injection</title>
+    <link>https://ch1nhpd.github.io/notes/server-side-template-injection/</link>
+    <pubDate>Sun, 03 Oct 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Sun, 03 Oct 2021 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/notes/server-side-template-injection/</guid>
+    <description>Server-side template injection là gì? ⏳
+  </description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/posts/server-side-template-injection.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>web</category>
+      
+     
+      
+       <category>Server-side template injection</category>
+      
+     
+      
+       <category>PortSwigger Academy</category>
+      
+     
+    
+    
+     
+      
+       <category>web</category>
+      
+     
+      
+       <category>lý thuyết</category>
+      
+     
+      
+       <category>PortSwigger Academy</category>
+      
+     
+    
+    
+   </item>
+   
+
+  
+ </channel>
+</rss>

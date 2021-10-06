@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ch1nhpd.github.io/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
+    <lastmod>2021-10-05T15:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://ch1nhpd.github.io/categories/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
+    <lastmod>2021-10-05T15:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,29 +28,14 @@
                 href="https://ch1nhpd.github.io/categories/"
                 />
   </url><url>
-    <loc>https://ch1nhpd.github.io/categories/expert-lab/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/insecure-deserialization/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/categories/insecure-deserialization/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/posts/developing-a-custom-gadget-chain-for-java-deserialization/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/portswigger-academy/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/categories/portswigger-academy/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
+    <loc>https://ch1nhpd.github.io/categories/pentest/</loc>
+    <lastmod>2021-10-05T15:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/posts/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
+    <lastmod>2021-10-05T15:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
+    <lastmod>2021-10-05T15:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -62,10 +47,46 @@
                 href="https://ch1nhpd.github.io/tags/"
                 />
   </url><url>
+    <loc>https://ch1nhpd.github.io/tags/tryhackme/</loc>
+    <lastmod>2021-10-05T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/posts/try-hack-me-list-room/</loc>
+    <lastmod>2021-10-05T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/categories/l%C3%BD-thuy%E1%BA%BFt/</loc>
+    <lastmod>2021-10-03T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/notes/</loc>
+    <lastmod>2021-10-03T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/portswigger-academy/</loc>
+    <lastmod>2021-10-03T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/categories/portswigger-academy/</loc>
+    <lastmod>2021-10-03T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/server-side-template-injection/</loc>
+    <lastmod>2021-10-03T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/notes/server-side-template-injection/</loc>
+    <lastmod>2021-10-03T15:00:06+07:00</lastmod>
+  </url><url>
     <loc>https://ch1nhpd.github.io/tags/web/</loc>
-    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
+    <lastmod>2021-10-03T15:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/categories/web/</loc>
+    <lastmod>2021-10-03T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/categories/expert-lab/</loc>
+    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/insecure-deserialization/</loc>
+    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/categories/insecure-deserialization/</loc>
+    <lastmod>2021-09-26T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/posts/developing-a-custom-gadget-chain-for-java-deserialization/</loc>
     <lastmod>2021-09-26T15:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/challenge/</loc>
@@ -164,7 +185,5 @@
   </url><url>
     <loc>https://ch1nhpd.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/index/</loc>
   </url>
 </urlset>

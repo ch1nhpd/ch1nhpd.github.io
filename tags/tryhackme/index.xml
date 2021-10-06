@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+ xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:atom="http://www.w3.org/2005/Atom" 
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+ xmlns:media="http://search.yahoo.com/mrss/">
+ <channel>
+  <title>tryhackme on ch1nhpd</title>
+  <link>https://ch1nhpd.github.io/tags/tryhackme/</link>
+  <description>Recent content in tryhackme on ch1nhpd</description>
+  <generator>Hugo -- gohugo.io</generator>
+  <language>vi</language>
+  <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
+  <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
+  <copyright>©2021, All Rights Reserved</copyright>
+  <lastBuildDate>Tue, 05 Oct 2021 15:00:06 +0700</lastBuildDate>
+  
+    <atom:link href="https://ch1nhpd.github.io/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+  
+
+   
+   <item>
+    <title>TryHackMe list room from beginer</title>
+    <link>https://ch1nhpd.github.io/posts/try-hack-me-list-room/</link>
+    <pubDate>Tue, 05 Oct 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Tue, 05 Oct 2021 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/posts/try-hack-me-list-room/</guid>
+    <description>Level 1 - Intro  OpenVPN https://tryhackme.com/room/openvpn Welcome https://tryhackme.com/jr/welcome Intro to Researching https://tryhackme.com/room/introtoresearch The Hacker Methodology https://tryhackme.com/room/hackermethodology Learn Linux https://tryhackme.com/module/linux-fundamentals Crash Course Pentesting https://tryhackme.com/room/ccpentesting  Introductory CTFs to get your feet wet
+ Google Dorking https://tryhackme.com/room/googledorking OHsint https://tryhackme.com/room/ohsint Shodan.io https://tryhackme.com/room/shodan  Level 2 - Tooling  Tmux https://tryhackme.com/room/rptmux Nmap https://tryhackme.com/room/furthernmap Web Scanning https://tryhackme.com/room/rpwebscanning Sublist3r https://tryhackme.com/room/rpsublist3r Metasploit https://tryhackme.com/room/rpmetasploit Hydra https://tryhackme.com/room/hydra Linux Privesc https://tryhackme.com/room/linuxprivesc Web Scanning https://tryhackme.com/room/rpwebscanning Shodan https://tryhackme.com/room/shodan RustScan (I invented RustScan so excuse the self-promo) https://tryhackme.</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/posts/tryhackme.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>tryhackme</category>
+      
+     
+    
+    
+     
+      
+       <category>pentest</category>
+      
+     
+    
+    
+   </item>
+   
+
+  
+ </channel>
+</rss>
