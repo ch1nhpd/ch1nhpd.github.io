@@ -101,81 +101,35 @@
     <loc>https://ch1nhpd.github.io/categories/script/</loc>
     <lastmod>2021-09-19T12:00:06+07:00</lastmod>
   </url><url>
-    <loc>https://ch1nhpd.github.io/tags/privacy/</loc>
-    <lastmod>2021-09-19T00:53:11+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/test/rich-content/</loc>
-    <lastmod>2021-09-19T00:53:11+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/shortcodes/</loc>
-    <lastmod>2021-09-19T00:53:11+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/test/</loc>
-    <lastmod>2021-09-19T00:53:11+07:00</lastmod>
-  </url><url>
     <loc>https://ch1nhpd.github.io/archive/</loc>
     <lastmod>2021-09-16T22:22:22+07:00</lastmod>
   </url><url>
-    <loc>https://ch1nhpd.github.io/tags/shortcode/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/test/shortcodes/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/css/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/html/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <loc>https://ch1nhpd.github.io/test/test-chartjs/</loc>
+    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/markdown/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/test/markdown-syntax/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/series/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ch1nhpd.github.io/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://ch1nhpd.github.io/series/"
-                />
-  </url><url>
-    <loc>https://ch1nhpd.github.io/categories/syntax/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/themes/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/categories/themes/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/series/themes-guide/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/hugo/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/categories/hugo/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/test/syntax-highlight/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/test/math-typesetting/</loc>
-    <lastmod>2019-12-17T12:00:06+09:00</lastmod>
+    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>https://ch1nhpd.github.io/test/test-chartjs/</loc>
-    <lastmod>2019-11-18T12:00:06+09:00</lastmod>
+    <loc>https://ch1nhpd.github.io/test/rich-content/</loc>
+    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>https://ch1nhpd.github.io/categories/diagram/</loc>
-    <lastmod>2019-11-18T12:00:06+09:00</lastmod>
+    <loc>https://ch1nhpd.github.io/test/shortcodes/</loc>
+    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/categories/syntax/</loc>
+    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/test/syntax-highlight/</loc>
+    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/test/</loc>
+    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/gallery/cartoon/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
@@ -188,5 +142,19 @@
   </url><url>
     <loc>https://ch1nhpd.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/kma/</loc>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ch1nhpd.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://ch1nhpd.github.io/series/"
+                />
   </url>
 </urlset>
