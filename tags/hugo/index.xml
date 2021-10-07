@@ -22,11 +22,11 @@
    
    <item>
     <title>Syntax highlighting</title>
-    <link>https://ch1nhpd.github.io/posts/syntax-highlight/</link>
+    <link>https://ch1nhpd.github.io/test/syntax-highlight/</link>
     <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Wed, 18 Dec 2019 10:33:41 +0900</atom:modified>
-    <guid>https://ch1nhpd.github.io/posts/syntax-highlight/</guid>
+    <guid>https://ch1nhpd.github.io/test/syntax-highlight/</guid>
     <description>Code Syntax Highlighting Verify the following code blocks render as code blocks and highlight properly.
 More about tuning syntax highlighting is the Hugo documentation.
 Diff 1 2 3 4 5 6 7 8 9 10  *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; --- /path/to/new	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; *************** *** 1 **** ! This is a line. --- 1 --- ! This is a replacement line. It is important to spell -removed line +new line   *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; --- /path/to/new	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; *************** *** 1 **** !</description>
