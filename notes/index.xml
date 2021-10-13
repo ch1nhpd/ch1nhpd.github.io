@@ -14,11 +14,89 @@
   <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
   <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
   <copyright>©2021, All Rights Reserved</copyright>
-  <lastBuildDate>Sun, 03 Oct 2021 15:00:06 +0700</lastBuildDate>
+  <lastBuildDate>Wed, 13 Oct 2021 23:12:06 +0700</lastBuildDate>
   
     <atom:link href="https://ch1nhpd.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
   
 
+   
+   <item>
+    <title>OhSINT</title>
+    <link>https://ch1nhpd.github.io/notes/ohsint/</link>
+    <pubDate>Wed, 13 Oct 2021 23:12:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Wed, 13 Oct 2021 23:12:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/notes/ohsint/</guid>
+    <description>Zoom này cho mình một cái ảnh, xong bắt mình tìm thông tin liên quan đến cái ảnh đó.
+Đầu tiên dùng exiftool tìm được chủ sở hữu của nó.
+Tiếp theo tìm các thông tin liên quan đến người đó.
+Có web wigle.net giúp định vị, tìm thông tin liên quan đến bssid.
+Ngoài ra còn biết thêm là khi view source thì ko chỉ để ý đến comment mà còn có cả những chỗ set màu trùng với background.</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+     
+      
+     
+      
+       <category>TryHackMe</category>
+      
+     
+    
+    
+     
+      
+     
+      
+       <category>lý thuyết</category>
+      
+     
+      
+       <category>TryHackMe</category>
+      
+     
+    
+    
+   </item>
+   
+   <item>
+    <title></title>
+    <link>https://ch1nhpd.github.io/notes/tmp/</link>
+    <pubDate>Sun, 03 Oct 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Sun, 03 Oct 2021 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/notes/tmp/</guid>
+    <description></description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
    
    <item>
     <title>Server-side template injection</title>

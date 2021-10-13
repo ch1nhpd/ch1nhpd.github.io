@@ -6,9 +6,9 @@
  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
  xmlns:media="http://search.yahoo.com/mrss/">
  <channel>
-  <title>lý thuyết on ch1nhpd</title>
-  <link>https://ch1nhpd.github.io/categories/l%C3%BD-thuy%E1%BA%BFt/</link>
-  <description>Recent content in lý thuyết on ch1nhpd</description>
+  <title>TryHackMe on ch1nhpd</title>
+  <link>https://ch1nhpd.github.io/categories/tryhackme/</link>
+  <description>Recent content in TryHackMe on ch1nhpd</description>
   <generator>Hugo -- gohugo.io</generator>
   <language>vi</language>
   <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
@@ -16,7 +16,7 @@
   <copyright>©2021, All Rights Reserved</copyright>
   <lastBuildDate>Wed, 13 Oct 2021 23:12:06 +0700</lastBuildDate>
   
-    <atom:link href="https://ch1nhpd.github.io/categories/l%C3%BD-thuy%E1%BA%BFt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ch1nhpd.github.io/categories/tryhackme/index.xml" rel="self" type="application/rss+xml" />
   
 
    
@@ -58,53 +58,6 @@ Ngoài ra còn biết thêm là khi view source thì ko chỉ để ý đến co
      
       
        <category>TryHackMe</category>
-      
-     
-    
-    
-   </item>
-   
-   <item>
-    <title>Server-side template injection</title>
-    <link>https://ch1nhpd.github.io/notes/server-side-template-injection/</link>
-    <pubDate>Sun, 03 Oct 2021 15:00:06 +0700</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    <atom:modified>Sun, 03 Oct 2021 15:00:06 +0700</atom:modified>
-    <guid>https://ch1nhpd.github.io/notes/server-side-template-injection/</guid>
-    <description>Server-side template injection là gì? ⏳
-  </description>
-    
-    <dc:creator>ch1nhpd</dc:creator>
-    <media:content url="https://ch1nhpd.github.io/images/posts/server-side-template-injection.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-    
-    
-    
-     
-      
-       <category>web</category>
-      
-     
-      
-       <category>Server-side template injection</category>
-      
-     
-      
-       <category>PortSwigger Academy</category>
-      
-     
-    
-    
-     
-      
-       <category>web</category>
-      
-     
-      
-       <category>lý thuyết</category>
-      
-     
-      
-       <category>PortSwigger Academy</category>
       
      
     
