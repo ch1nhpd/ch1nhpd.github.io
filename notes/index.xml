@@ -65,40 +65,6 @@ Ngoài ra còn biết thêm là khi view source thì ko chỉ để ý đến co
    </item>
    
    <item>
-    <title></title>
-    <link>https://ch1nhpd.github.io/notes/tmp/</link>
-    <pubDate>Sun, 03 Oct 2021 15:00:06 +0700</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    <atom:modified>Sun, 03 Oct 2021 15:00:06 +0700</atom:modified>
-    <guid>https://ch1nhpd.github.io/notes/tmp/</guid>
-    <description></description>
-    
-    <dc:creator>ch1nhpd</dc:creator>
-    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
-    
-    
-    
-     
-      
-     
-      
-     
-      
-     
-    
-    
-     
-      
-     
-      
-     
-      
-     
-    
-    
-   </item>
-   
-   <item>
     <title>Server-side template injection</title>
     <link>https://ch1nhpd.github.io/notes/server-side-template-injection/</link>
     <pubDate>Sun, 03 Oct 2021 15:00:06 +0700</pubDate>
