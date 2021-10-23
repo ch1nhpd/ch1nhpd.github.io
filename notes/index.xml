@@ -27,7 +27,8 @@
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Fri, 22 Oct 2021 23:00:06 +0700</atom:modified>
     <guid>https://ch1nhpd.github.io/notes/nmap/</guid>
-    <description>Giới thiệu Trước khi đến vơi Nmap thì chúng ta cần tìm hiểu về một khái niệm khác đó chính là port. Hẳn là bạn đã từng truy cập vào nhiều trang web cùng một lúc như vừa nhắn tin fb vừa nhắn tin telegram và bạn đã bao giờ tự hỏi tại sao tin nhắn đến từ fb lại ko nhảy sang telegram. Tất nhiên là không thể nhảy lộn xộn như vậy được rồi vì mỗi khi gửi đi một request thì nó sẽ tự động mở một port để đánh dấu để khi response tương ứng sẽ vào đúng port đấy luôn.</description>
+    <description>Giới thiệu Trước khi đến vơi Nmap thì chúng ta cần tìm hiểu về một khái niệm khác đó chính là port. Hẳn là bạn đã từng truy cập vào nhiều trang web cùng một lúc như vừa nhắn tin fb vừa nhắn tin telegram và bạn đã bao giờ tự hỏi tại sao tin nhắn đến từ fb lại ko nhảy sang telegram?
+Tất nhiên là không thể nhảy lộn xộn như vậy được rồi vì mỗi khi gửi đi một request thì nó sẽ tự động mở một port để đánh dấu để khi response tương ứng sẽ vào đúng port đấy luôn.</description>
     
     <dc:creator>ch1nhpd</dc:creator>
     <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>

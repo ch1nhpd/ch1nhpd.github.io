@@ -1699,7 +1699,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Oct 22, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;1&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🤖&nbsp;ch1nhpd</span>
   
@@ -1730,16 +1730,45 @@
   <nav id="TableOfContents">
   <ul>
     <li><a href="#giới-thiệu">Giới thiệu</a></li>
-    <li><a href="#các-chế-độ-của-nmap">Các chế độ của Nmap</a></li>
+    <li><a href="#các-kiểu-scan">Các kiểu Scan</a>
+      <ul>
+        <li><a href="#tcp-connect-scans--st">TCP connect Scans <code>-sT</code></a></li>
+        <li><a href="#syn-scans">SYN Scans</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
  </div>
 </div>
 
    <h2 id="giới-thiệu">Giới thiệu</h2>
-<p>Trước khi đến vơi Nmap thì chúng ta cần tìm hiểu về một khái niệm khác đó chính là <strong>port</strong>. Hẳn là bạn đã từng truy cập vào nhiều trang web cùng một lúc như vừa nhắn tin fb vừa nhắn tin telegram và bạn đã bao giờ tự hỏi tại sao tin nhắn đến từ fb lại ko nhảy sang telegram. Tất nhiên là không thể nhảy lộn xộn như vậy được rồi vì mỗi khi gửi đi một request thì nó sẽ tự động mở một port để đánh dấu để khi response tương ứng sẽ vào đúng port đấy luôn. Và trên mỗi máy tính có đến 65535 port trong đó có một số port được định nghĩa sẵn như 80: <em>http</em>, 443: <em>https</em>, 21: <em>ftp</em>, 22: <em>ssh</em>, 23: <em>telnet</em>, &hellip;.</p>
+<p>Trước khi đến vơi Nmap thì chúng ta cần tìm hiểu về một khái niệm khác đó chính là <strong>port</strong>. Hẳn là bạn đã từng truy cập vào nhiều trang web cùng một lúc như vừa nhắn tin fb vừa nhắn tin telegram và bạn đã bao giờ tự hỏi tại sao tin nhắn đến từ fb lại ko nhảy sang telegram?</p>
+<p>Tất nhiên là không thể nhảy lộn xộn như vậy được rồi vì mỗi khi gửi đi một request thì nó sẽ tự động mở một port để đánh dấu để khi response tương ứng sẽ vào đúng port đấy luôn. Và trên mỗi máy tính có đến <em>65535</em> port trong đó có một số port được định nghĩa sẵn như:</p>
+<blockquote>
+<p>80: <em>http</em>, 443: <em>https</em>, 21: <em>ftp</em>, 22: <em>ssh</em>, 23: <em>telnet</em>, &hellip;.</p>
+</blockquote>
 <p>Còn chức năng chính của Nmap là xác định xem những port nào đang được mở để chúng ta có thể dễ dàng khai thác. Ngoài ra qua những đoạn scripts có sẵn của Nmap, chúng ta có thể dễ dàng tìm kiếm lỗ hỏng hoặc thậm chí là khai thác trực tiếp. Cùng nhau tìm hiểu tiếp qua các phần bên dưới nhé!</p>
-<h2 id="các-chế-độ-của-nmap">Các chế độ của Nmap</h2>
+<h2 id="các-kiểu-scan">Các kiểu Scan</h2>
+<h3 id="tcp-connect-scans--st">TCP connect Scans <code>-sT</code></h3>
+<p>Để hiểu được TCP connect scans, ta cần hiểu được quá trình bắt tay ba bước (three-way handshake) trong giao thức TCP.<br />
+<img src="https://ch1nhpd.github.io/images/posts/tcp_scans.png" alt="tcp_scans" /></p>
+<ul>
+<li>
+<p>Đầu tiên khi ta gửi một TCP request tới máy chủ mục tiêu với gói SYN.</p>
+</li>
+<li>
+<p>Sau đó máy chủ xác nhận gói tin này với một phản hồi TCp có chứ SYN flag và ACK flag.</p>
+</li>
+<li>
+<p>Cuối cùng, để hoàn thành quá trình bắt tay ba bước, máy của ta gủi một TCP request nữa tới server với ACK flag mà mình đã nhận.</p>
+</li>
+</ul>
+<p><strong>TCP scan hoạt động</strong> bằng cách gửi TCP request với SYN flag tới mỗi port mình muốn của server và quan sát cách server phản hồi lại để xác định tình trạng đóng mở của port đó.</p>
+<p>Nếu nhận được như trong bước hai của three-way handshake thì chứng tỏ port đó đang mở.<br />
+Còn nếu nhận được RST(Reset) flag thì port đó đang đóng.</p>
+<p>Tuy nhiên có một trường hợp đặc biệt xảy ra là ta không nhận được gì hết. Nguyên nhân là do các cổng đó đang được bảo vệ bởi tường lửa của đối phương. Việc cấu hình nên tường lửa như vậy thì cực kì đơn giản nhưng lại khiến ta rất khó có thể xác định chính xác mục tiêu. Đó được coi là một nhược điểm của TCP connect Scans.<br />
+Trong trường hợp đó Nmap xác định port đó đang ở trạng thái <code>filltered</code>.</p>
+<h3 id="syn-scans">SYN Scans</h3>
 
   </article>
   
@@ -2096,11 +2125,11 @@
     </li>
     
     <li>
-     <a href="/test/test-chartjs/" class="related__link">Chart support</a>
+     <a href="/test/syntax-highlight/" class="related__link">Syntax highlighting</a>
     </li>
     
     <li>
-     <a href="/test/syntax-highlight/" class="related__link">Syntax highlighting</a>
+     <a href="/test/test-chartjs/" class="related__link">Chart support</a>
     </li>
     
   </ul>
@@ -2474,7 +2503,12 @@ document.addEventListener('DOMContentLoaded', function () {
   <nav id="TableOfContents">
   <ul>
     <li><a href="#giới-thiệu">Giới thiệu</a></li>
-    <li><a href="#các-chế-độ-của-nmap">Các chế độ của Nmap</a></li>
+    <li><a href="#các-kiểu-scan">Các kiểu Scan</a>
+      <ul>
+        <li><a href="#tcp-connect-scans--st">TCP connect Scans <code>-sT</code></a></li>
+        <li><a href="#syn-scans">SYN Scans</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
  </div>
