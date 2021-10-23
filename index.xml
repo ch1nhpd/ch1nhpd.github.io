@@ -14,7 +14,7 @@
   <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
   <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
   <copyright>©2021, All Rights Reserved</copyright>
-  <lastBuildDate>Wed, 13 Oct 2021 23:12:06 +0700</lastBuildDate>
+  <lastBuildDate>Fri, 22 Oct 2021 23:00:06 +0700</lastBuildDate>
   
     <atom:link href="https://ch1nhpd.github.io/index.xml" rel="self" type="application/rss+xml" />
   
@@ -34,6 +34,75 @@
     
    
 
+   
+   <item>
+    <title>Note Nmap</title>
+    <link>https://ch1nhpd.github.io/notes/nmap/</link>
+    <pubDate>Fri, 22 Oct 2021 23:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Fri, 22 Oct 2021 23:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/notes/nmap/</guid>
+    <description>Giới thiệu Trước khi đến vơi Nmap thì chúng ta cần tìm hiểu về một khái niệm khác đó chính là port. Hẳn là bạn đã từng truy cập vào nhiều trang web cùng một lúc như vừa nhắn tin fb vừa nhắn tin telegram và bạn đã bao giờ tự hỏi tại sao tin nhắn đến từ fb lại ko nhảy sang telegram. Tất nhiên là không thể nhảy lộn xộn như vậy được rồi vì mỗi khi gửi đi một request thì nó sẽ tự động mở một port để đánh dấu để khi response tương ứng sẽ vào đúng port đấy luôn.</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
+   
+   <item>
+    <title>Note  Tmux</title>
+    <link>https://ch1nhpd.github.io/notes/tmux/</link>
+    <pubDate>Thu, 21 Oct 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Thu, 21 Oct 2021 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/notes/tmux/</guid>
+    <description>TMUX
+Là một cái tool để sử dụng terminal một cách hiệu quả hơn. Một trong số chức năng tuyệt vời của nó là để khôi phục lại session trước đó. VD: khi đang ssh đến server mà bị mất mạng thì khi ssh lại nó sẽ khôi phục lại đúng cái lúc mình bị đá ra..</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
    
    <item>
     <title>OhSINT</title>
