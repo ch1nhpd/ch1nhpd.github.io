@@ -1699,7 +1699,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Oct 22, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;4&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🤖&nbsp;ch1nhpd</span>
   
@@ -1732,8 +1732,9 @@
     <li><a href="#giới-thiệu">Giới thiệu</a></li>
     <li><a href="#các-kiểu-scan">Các kiểu Scan</a>
       <ul>
-        <li><a href="#tcp-connect-scans--st">TCP connect Scans <code>-sT</code></a></li>
-        <li><a href="#syn-scans">SYN Scans</a></li>
+        <li><a href="#tcp-connect-scans---st-">TCP connect Scans <code>-sT</code></a></li>
+        <li><a href="#syn-scans----ss-">SYN Scans  <code>-sS</code></a></li>
+        <li><a href="#udp-scans---su-">UDP Scans <code>-sU</code></a></li>
       </ul>
     </li>
   </ul>
@@ -1743,15 +1744,15 @@
 
    <h2 id="giới-thiệu">Giới thiệu</h2>
 <p>Trước khi đến vơi Nmap thì chúng ta cần tìm hiểu về một khái niệm khác đó chính là <strong>port</strong>. Hẳn là bạn đã từng truy cập vào nhiều trang web cùng một lúc như vừa nhắn tin fb vừa nhắn tin telegram và bạn đã bao giờ tự hỏi tại sao tin nhắn đến từ fb lại ko nhảy sang telegram?</p>
-<p>Tất nhiên là không thể nhảy lộn xộn như vậy được rồi vì mỗi khi gửi đi một request thì nó sẽ tự động mở một port để đánh dấu để khi response tương ứng sẽ vào đúng port đấy luôn. Và trên mỗi máy tính có đến <em>65535</em> port trong đó có một số port được định nghĩa sẵn như:</p>
+<p>Tất nhiên là không thể nhảy lộn xộn như vậy được rồi vì mỗi khi gửi đi một request thì nó sẽ tự động mở một port để đánh dấu để khi response tương ứng sẽ vào đúng port đấy luôn. Và trên mỗi máy tính có đến <em>65535</em> (2^16) port trong đó có một số port được định nghĩa sẵn như:</p>
 <blockquote>
 <p>80: <em>http</em>, 443: <em>https</em>, 21: <em>ftp</em>, 22: <em>ssh</em>, 23: <em>telnet</em>, &hellip;.</p>
 </blockquote>
 <p>Còn chức năng chính của Nmap là xác định xem những port nào đang được mở để chúng ta có thể dễ dàng khai thác. Ngoài ra qua những đoạn scripts có sẵn của Nmap, chúng ta có thể dễ dàng tìm kiếm lỗ hỏng hoặc thậm chí là khai thác trực tiếp. Cùng nhau tìm hiểu tiếp qua các phần bên dưới nhé!</p>
 <h2 id="các-kiểu-scan">Các kiểu Scan</h2>
-<h3 id="tcp-connect-scans--st">TCP connect Scans <code>-sT</code></h3>
-<p>Để hiểu được TCP connect scans, ta cần hiểu được quá trình bắt tay ba bước (three-way handshake) trong giao thức TCP.<br />
-<img src="https://ch1nhpd.github.io/images/posts/tcp_scans.png" alt="tcp_scans" /></p>
+<h3 id="tcp-connect-scans---st-">TCP connect Scans <code>-sT</code></h3>
+<p>Để hiểu được TCP connect scans, ta cần hiểu được quá trình bắt tay ba bước (three-way handshake) trong giao thức TCP.</p>
+<p><img src="https://ch1nhpd.github.io/images/posts/tcp_scans.png" alt="tcp_scans" /></p>
 <ul>
 <li>
 <p>Đầu tiên khi ta gửi một TCP request tới máy chủ mục tiêu với gói SYN.</p>
@@ -1768,7 +1769,23 @@
 Còn nếu nhận được RST(Reset) flag thì port đó đang đóng.</p>
 <p>Tuy nhiên có một trường hợp đặc biệt xảy ra là ta không nhận được gì hết. Nguyên nhân là do các cổng đó đang được bảo vệ bởi tường lửa của đối phương. Việc cấu hình nên tường lửa như vậy thì cực kì đơn giản nhưng lại khiến ta rất khó có thể xác định chính xác mục tiêu. Đó được coi là một nhược điểm của TCP connect Scans.<br />
 Trong trường hợp đó Nmap xác định port đó đang ở trạng thái <code>filltered</code>.</p>
-<h3 id="syn-scans">SYN Scans</h3>
+<h3 id="syn-scans----ss-">SYN Scans  <code>-sS</code></h3>
+<p>Giống như TCP Scans, SYN Scans cũng được dùng để scan TCP port. Chỉ có một chút khác biệt là ở bước 3, thay vì gửi ACK flag lại cho server thì SYN Scan lại gửi gói tin RST.</p>
+<p><img src="https://ch1nhpd.github.io/images/posts/SYN_Scans.png" alt="syn_scan" /></p>
+<p>Việc gửi RST thay vì ACK là vô cùng có lợi khi đứng ở vai trò là kẻ tấn công. Điều này giúp hacker có thể bypass được một số hệ thống phát hiện xâm nhập đời cũ bởi những hệ thống đó chỉ phát hiện khi quá trình bắt tay ba bước hoàn tất (như đã nói ở <code>TCP Scans</code>).</p>
+<p>Không chỉ vậy, SYN Scans thường không được ghi nhật kí bởi các ứng dụng đang lắng nghe trên port đang mở, vì thông thường nó chỉ ghi lại kết quả khi kết nối được thiết lập đầy đủ(hoàn thành quá trình bắt tay 3 bước). Và như vậy SYN Scans thường được gọi là <code>stealthy</code> hay <code>Half-open</code></p>
+<p>Vì không cần bận tâm về việc hoàn thành và ngắt kết nối nên SYN Scans nhanh hơn đáng kể so với TCP Scans.</p>
+<blockquote>
+<p><strong>Lưu ý</strong><br />
+- Khi dùng SYN Scans, chúng ta cần chạy dưới quyền sudo. Và SYN Scans cũng chính là kiểu mặc định khi ta chạy Nmap dưới quyền sudo.<br />
+- Nếu không chạy sudo thì mặc định sẽ là TCP Scans</p>
+</blockquote>
+<h3 id="udp-scans---su-">UDP Scans <code>-sU</code></h3>
+<p>Đang cập nhật &hellip;</p>
+<!-- Khác với TCP, UDP là kiểu kết nối không trạng thái (stateless). Nghĩa là thay vì kết nối handshake, kết nối UDP dựa vào việc gửi các gói đến một cổng mục tiêu và h -->
+<!-- ##### Bonus
+
+Các port thường dùng: 1 - 1024 -->
 
   </article>
   
@@ -2505,8 +2522,9 @@ document.addEventListener('DOMContentLoaded', function () {
     <li><a href="#giới-thiệu">Giới thiệu</a></li>
     <li><a href="#các-kiểu-scan">Các kiểu Scan</a>
       <ul>
-        <li><a href="#tcp-connect-scans--st">TCP connect Scans <code>-sT</code></a></li>
-        <li><a href="#syn-scans">SYN Scans</a></li>
+        <li><a href="#tcp-connect-scans---st-">TCP connect Scans <code>-sT</code></a></li>
+        <li><a href="#syn-scans----ss-">SYN Scans  <code>-sS</code></a></li>
+        <li><a href="#udp-scans---su-">UDP Scans <code>-sU</code></a></li>
       </ul>
     </li>
   </ul>
