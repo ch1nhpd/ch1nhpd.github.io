@@ -14,7 +14,7 @@
   <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
   <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
   <copyright>©2021, All Rights Reserved</copyright>
-  <lastBuildDate>Fri, 22 Oct 2021 23:00:06 +0700</lastBuildDate>
+  <lastBuildDate>Thu, 28 Oct 2021 15:00:06 +0700</lastBuildDate>
   
     <atom:link href="https://ch1nhpd.github.io/index.xml" rel="self" type="application/rss+xml" />
   
@@ -34,6 +34,47 @@
     
    
 
+   
+   <item>
+    <title>Web Scanning, Sublist3r, Hydra - TryHackMe</title>
+    <link>https://ch1nhpd.github.io/notes/roomwebscanning/</link>
+    <pubDate>Thu, 28 Oct 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Thu, 28 Oct 2021 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/notes/roomwebscanning/</guid>
+    <description>Hai cái tool là Nikto và Zap.
+Cả hai đều sử dụng để tìm kiểm những điểm yếu trang web.
+Sublist3r: tìm ra các subdomain dựa vào các công cụ tìm kiếm như bing, gg, baidu,&amp;hellip;
+Ngoài ra có một trang web để làm công việc tương tự
+Hydra
+Là một cái tool để brute force password một số dịch vụ như ftp,ssh,webapp form,&amp;hellip;
+VD1: web app form
+hydra -l molly -P /usr/share/wordlists/rockyou.</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
    
    <item>
     <title>Note  Tmux</title>
@@ -347,41 +388,6 @@ Diff 1 2 3 4 5 6 7 8 9 10  *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp
      
       
      
-    
-   </item>
-   
-   <item>
-    <title>Web Scanning - TryHackMe</title>
-    <link>https://ch1nhpd.github.io/notes/roomwebscanning/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    
-    <guid>https://ch1nhpd.github.io/notes/roomwebscanning/</guid>
-    <description>Hai cái tool là Nikto và Zap.
-Cả hai đều sử dụng để tìm kiểm những điểm yếu trang web.</description>
-    
-    <dc:creator>ch1nhpd</dc:creator>
-    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
-    
-    
-    
-     
-      
-     
-      
-     
-      
-     
-    
-    
-     
-      
-     
-      
-     
-      
-     
-    
     
    </item>
    
