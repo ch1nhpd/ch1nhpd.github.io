@@ -350,6 +350,41 @@ Diff 1 2 3 4 5 6 7 8 9 10  *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp
     
    </item>
    
+   <item>
+    <title>Web Scanning - TryHackMe</title>
+    <link>https://ch1nhpd.github.io/notes/roomwebscanning/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/notes/roomwebscanning/</guid>
+    <description>Hai cái tool là Nikto và Zap.
+Cả hai đều sử dụng để tìm kiểm những điểm yếu trang web.</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
+   
 
   
  </channel>
