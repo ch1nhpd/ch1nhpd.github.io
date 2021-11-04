@@ -27,7 +27,7 @@
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Wed, 03 Nov 2021 15:00:06 +0700</atom:modified>
     <guid>https://ch1nhpd.github.io/posts/linux-privesc/</guid>
-    <description>Chào các ban, tiếp tục với các room trong TryHackMe list room from beginer, hôm nay chúng ta cùng đến với Linux PrivEsc để tìm hiểu về Privilege Escalation trong Linux nhé!
+    <description>Chào các bạn, tiếp tục với các room trong TryHackMe list room from beginer, hôm nay chúng ta cùng đến với Linux PrivEsc để tìm hiểu về Privilege Escalation trong Linux nhé!
 Task 1: Deploy the Vulnerable Debian VM Ở phần đầu tiên, chỉ đơn giản là cài đặt máy để kết nối tới máy ảo của họ(vulnerable Debian VM) để bắt đầu khai thác.
 Chúng ta sẽ kết nối tới máy của họ qua giao thức ssh .</description>
     
