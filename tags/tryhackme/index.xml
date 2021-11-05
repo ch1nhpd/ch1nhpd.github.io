@@ -51,6 +51,8 @@ Chúng ta sẽ kết nối tới máy của họ qua giao thức ssh .</descript
     
      
       
+       <category>PrivEsc</category>
+      
      
       
      
@@ -128,6 +130,48 @@ Ngoài ra còn biết thêm là khi view source thì ko chỉ để ý đến co
      
       
        <category>pentest</category>
+      
+     
+    
+    
+   </item>
+   
+   <item>
+    <title>Vulnversity - TryHackMe room</title>
+    <link>https://ch1nhpd.github.io/posts/vulnversity/</link>
+    <pubDate>Sun, 03 Oct 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Sun, 03 Oct 2021 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/posts/vulnversity/</guid>
+    <description>chuỗi --Chào các bạn, tiếp tục với các room trong TryHackMe list room from beginer, hôm nay chúng ta cùng đến với bài thực hành Vulnversity nhé!
+Trong bài này mình chỉ tập trung nói về Task 4 và 5 vì là với những phần còn lại các bạn hoàn toàn có thể tự tìm hiểu được.
+Task 4: Compromise the webserver Sau khi làm xong những task trước thì chúng ta thấy là server cho phép chúng ra upload file có phần mở rộng là .</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/posts/Vulnversity.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>Linux</category>
+      
+     
+      
+       <category>Tryhackme</category>
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+       <category>PrivEsc</category>
+      
+     
       
      
     
