@@ -1699,7 +1699,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Nov 5, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🤖&nbsp;ch1nhpd</span>
   
@@ -1744,7 +1744,7 @@
 đổi màu :  <span style="color:lime">   chuỗi </span>
 -->
 <p>Chào các bạn, tiếp tục với các room trong <a href="https://ch1nhpd.github.io/posts/try-hack-me-list-room/">TryHackMe list room from beginer</a>, hôm nay chúng ta cùng đến với bài thực hành <a href="https://tryhackme.com/room/vulnversity">Vulnversity</a> nhé!</p>
-<p>Trong bài này mình chỉ tập trung nói về Task 4 và 5 vì  là với những phần còn lại các bạn hoàn toàn có thể tự tìm hiểu được.</p>
+<p>Trong bài này mình chỉ tập trung nói về Task 4 và 5 với những phần còn lại mình tin là các bạn hoàn toàn có thể tự tìm hiểu được.</p>
 <h2 id="task-4--compromise-the-webserver">Task 4:  Compromise the webserver</h2>
 <p>Sau khi làm xong những task trước thì  chúng ta thấy là server cho phép chúng ra upload file có phần mở rộng là .phtml và trong cái file đó chúng ta hoàn toàn có thể truyền code php vào để  reverse shell. Tức là buộc server tạo một kết nối tới máy mình và cho phép mình thực hiện những lệnh hệ thống(shell).</p>
 <p>Như tác giả đã cung cấp, chúng ta có thể lấy đoạn mã php đó tại <a href="https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php">đây</a>. Copy đoạn mã vào và lưu dưới dạng .phtml để chúng ta có thể upload lên server.</p>
@@ -1760,6 +1760,22 @@
 </blockquote>
 <p>Cuối cùng là vào khai thác để trả lời các câu hỏi của tác giả thôi&hellip;</p>
 <h2 id="task-5--privilege-escalation">Task 5:  Privilege Escalation</h2>
+<p>Ở phần này, nhiệm vụ của chúng ra là leo được lên thành root user nhờ vào <code>systemctl</code> và SUID. Để có thể làm được, trước tiên ta cần hiểu SUID là gì đã.</p>
+<p>Hiểu đơn giản thì <a href="https://viblo.asia/p/leo-thang-dac-quyen-trong-linux-linux-privilege-escalation-1-using-suid-bit-QpmlexgrZrd">SUID</a> là một loại quyền đặc biệt. Quyền này cho phép file được thực thi(executes) dưới quyền của chủ sở hữu nó cho dù người chạy file đó là bất kì ai. Khi một file được gắn quyền SUID thì bit <code>x</code> được thay thế thành bit <code>s</code>.</p>
+<p><img src="https://ch1nhpd.github.io/images/posts/suid.png" alt="suid" /></p>
+<p>Tiếp theo là ta cần nắm được cách tìm kiếm những file được gắn quyền SUID để có thể tiếp tục khai thác.</p>
+<blockquote>
+<p><span style="color:lime">  find / -perm /4000 -user root -type f 2&gt; /dev/null   </span></p>
+</blockquote>
+<p>Có thể hiểu lệnh này như sau:</p>
+<ul>
+<li><code>/ </code>: vị trí tìm kiếm file SUID</li>
+<li><code>-perm /4000</code>: phân loại quyền. Ở đây /4000 là SUID, ngoài ra nếu SGID thì là /2000 và cả SUID,SGID thì dùng /6000 nhé</li>
+<li><code>-user root</code>: là tìm kiếm theo username của người sở hữu file đó.</li>
+<li><code>-type f</code>: chỉ định loại file tìm kiếm</li>
+<li><code>2&gt; /dev/null</code>: Khi tìm kiếm bằng user bình thường thì có những thư mục mình ko thể truy cập vào được, nên nó sẽ hiện lỗi ra làm rối hết cả mắt. Vì vậy ta dùng lệnh này để ghi những cái lỗi đó vào /dev/null. Số 2 ở đây là nói đến những dòng lỗi, ngược lại nếu muốn ghi những dòng không lỗi vào đâu đó thì thay số 2 bằng số 1. Còn file /dev/null thì là một nơi mà mình ghi gì vào cũng được nhưng khi đọc thì nó không hiện ra cái gì hết.</li>
+</ul>
+<p>[đang cập nhật&hellip;.]</p>
 
   </article>
   
