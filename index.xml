@@ -203,38 +203,6 @@ Ngoài ra còn biết thêm là khi view source thì ko chỉ để ý đến co
    </item>
    
    <item>
-    <title>Chart support</title>
-    <link>https://ch1nhpd.github.io/test/test-chartjs/</link>
-    <pubDate>Wed, 15 Sep 2021 12:00:06 +0900</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    <atom:modified>Wed, 15 Sep 2021 12:00:06 +0900</atom:modified>
-    <guid>https://ch1nhpd.github.io/test/test-chartjs/</guid>
-    <description>{&amp;quot;type&amp;quot;: &amp;quot;bar&amp;quot;,&amp;quot;data&amp;quot;: {&amp;quot;labels&amp;quot;: [&amp;quot;One&amp;quot;, &amp;quot;Two&amp;quot;, &amp;quot;Three&amp;quot;, &amp;quot;Four&amp;quot;, &amp;quot;Five&amp;quot;, &amp;quot;Six&amp;quot;],&amp;quot;datasets&amp;quot;: [{&amp;quot;label&amp;quot;: &amp;quot;# of Votes&amp;quot;,&amp;quot;data&amp;quot;: [12, 19, 3, 5, 3, 8]}]}}{&amp;quot;type&amp;quot;: &amp;quot;line&amp;quot;,&amp;quot;data&amp;quot;: {&amp;quot;labels&amp;quot;: [&amp;quot;One&amp;quot;, &amp;quot;Two&amp;quot;, &amp;quot;Three&amp;quot;, &amp;quot;Four&amp;quot;, &amp;quot;Five&amp;quot;, &amp;quot;Six&amp;quot;],&amp;quot;datasets&amp;quot;: [{&amp;quot;label&amp;quot;: &amp;quot;# of Votes&amp;quot;,&amp;quot;data&amp;quot;: [12, 19, 3, 5, 2, 3],&amp;quot;backgroundColor&amp;quot;:&amp;quot;transparent&amp;quot;,&amp;quot;borderColor&amp;quot;:&amp;quot;orange&amp;quot;},{&amp;quot;label&amp;quot;: &amp;quot;Some other set&amp;quot;,&amp;quot;data&amp;quot;: [15, 8, 13, 5, 5, 9],&amp;quot;backgroundColor&amp;quot;:&amp;quot;transparent&amp;quot;,&amp;quot;borderColor&amp;quot;:&amp;quot;#44ccff&amp;quot;}]}}</description>
-    
-    <dc:creator>Phạm Đăng Chính</dc:creator>
-    <media:content url="https://ch1nhpd.github.io/images/feature1/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-    
-    
-    
-     
-      
-     
-    
-    
-     
-      
-       <category>syntax</category>
-      
-     
-    
-    
-     
-      
-     
-    
-   </item>
-   
-   <item>
     <title>Markdown Syntax Guide</title>
     <link>https://ch1nhpd.github.io/test/markdown-syntax/</link>
     <pubDate>Wed, 15 Sep 2021 12:00:06 +0900</pubDate>
@@ -245,64 +213,6 @@ Ngoài ra còn biết thêm là khi view source thì ko chỉ để ý đến co
     
     <dc:creator>Choi</dc:creator>
     <media:content url="https://ch1nhpd.github.io/images/posts/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-    
-    
-    
-     
-      
-       <category>markdown</category>
-      
-     
-    
-    
-     
-      
-       <category>syntax</category>
-      
-     
-    
-    
-   </item>
-   
-   <item>
-    <title>Math Typesetting</title>
-    <link>https://ch1nhpd.github.io/test/math-typesetting/</link>
-    <pubDate>Wed, 15 Sep 2021 12:00:06 +0900</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    <atom:modified>Wed, 15 Sep 2021 12:00:06 +0900</atom:modified>
-    <guid>https://ch1nhpd.github.io/test/math-typesetting/</guid>
-    <description>&lt;div class=&#34;box&#34;&gt;
-We need goldmark katex entension which is not yet we have: 
-[https://github.com/gohugoio/hugo/issues/6544](https://github.com/gohugoio/hugo/issues/6544)
-&lt;/div&gt;
-&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    
-    <dc:creator>Park</dc:creator>
-    
-    
-    
-    
-    
-     
-      
-       <category>syntax</category>
-      
-     
-    
-    
-   </item>
-   
-   <item>
-    <title>Rich Content</title>
-    <link>https://ch1nhpd.github.io/test/rich-content/</link>
-    <pubDate>Wed, 15 Sep 2021 12:00:06 +0900</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    <atom:modified>Wed, 15 Sep 2021 12:00:06 +0900</atom:modified>
-    <guid>https://ch1nhpd.github.io/test/rich-content/</guid>
-    <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    
-    <dc:creator>Lee</dc:creator>
-    <media:content url="https://ch1nhpd.github.io/images/feature2/content.png" medium="image"><media:title type="html">featured image</media:title></media:content>
     
     
     
@@ -374,6 +284,8 @@ Diff 1 2 3 4 5 6 7 8 9 10  *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp
     
     
      
+      
+       <category>markdown</category>
       
      
     

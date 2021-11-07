@@ -1781,14 +1781,14 @@
 <li><code>2&gt; /dev/null</code>: Khi tìm kiếm bằng user bình thường thì có những thư mục mình ko thể truy cập vào được, nên nó sẽ hiện lỗi ra làm rối hết cả mắt. Vì vậy ta dùng lệnh này để ghi những cái lỗi đó vào /dev/null. Số 2 ở đây là nói đến những dòng lỗi, ngược lại nếu muốn ghi những dòng không lỗi vào đâu đó thì thay số 2 bằng số 1. Còn file /dev/null thì là một nơi mà mình ghi gì vào cũng được nhưng khi đọc thì nó không hiện ra cái gì hết.</li>
 </ul>
 <p>Ta có thể tìm tên các file đó trên <a href="https://gtfobins.github.io/">GTFOBins </a> thì thấy có thể leo root được bằng cách sử dụng <code>systemctl</code>.</p>
-<p>Nói qua về systemctl thì:</p>
-<div style="background-color:darkslategray; vertical-align: middle; padding:5px 30px;">
-Systemctl là một tiện ích dòng lệnh, có nhiệm vụ điều khiển hệ thống systemd và service manager. Systemd là một bộ công cụ để quản lý hệ thống Linux, nó được sử dụng để khởi động máy, quản lý dịch vụ, hệ thống file tự động, ghi sự kiện, thiết lập tên máy chủ và các tác vụ hệ thống khác. Systemd sử dụng các khái niệm unit, package, service, socket.</br>
-Systemctl được sử dụng để kiểm soát systemd và quản lý các dịch vụ. Nó là một phần của hệ sinh thái systemd và có sẵn theo mặc định trên tất cả các hệ thống.</br>
+<p>Nói qua về systemctl thì: <br />
+<div class="box"><div style="background-color:darkslategray; vertical-align: middle; padding:5px 30px;">
+Systemctl là một tiện ích dòng lệnh, có nhiệm vụ điều khiển hệ thống systemd và service manager. Systemd là một bộ công cụ để quản lý hệ thống Linux, nó được sử dụng để khởi động máy, quản lý dịch vụ, hệ thống file tự động, ghi sự kiện, thiết lập tên máy chủ và các tác vụ hệ thống khác. Systemd sử dụng các khái niệm unit, package, service, socket.</br></br>
+Systemctl được sử dụng để kiểm soát systemd và quản lý các dịch vụ. Nó là một phần của hệ sinh thái systemd và có sẵn theo mặc định trên tất cả các hệ thống.</br></br>
 Với Systemctl bạn có thể kiểm tra được trạng thái của các service, khởi động và tắt service, gỡ rối hệ thống khi xảy ra sự cố.
 </div>
-</br>
-Như trên GTFOBins đã viết thì ta có thể sử dụng payload sau để trở thành root user:
+</div></p>
+<p>Theo <a href="https://gtfobins.github.io/gtfobins/systemctl/">GTFOBins</a> thì ta có thể sử dụng payload sau để trở thành root user:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
