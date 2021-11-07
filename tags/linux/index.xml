@@ -27,7 +27,7 @@
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Fri, 05 Nov 2021 17:00:06 +0700</atom:modified>
     <guid>https://ch1nhpd.github.io/posts/vulnversity/</guid>
-    <description>chuỗi --Chào các bạn, tiếp tục với các room trong TryHackMe list room from beginer, hôm nay chúng ta cùng đến với bài thực hành Vulnversity nhé!
+    <description>Chào các bạn, tiếp tục với các room trong TryHackMe list room from beginer, hôm nay chúng ta cùng đến với bài thực hành Vulnversity nhé!
 Trong bài này mình chỉ tập trung nói về Task 4 và 5 với những phần còn lại mình tin là các bạn hoàn toàn có thể tự tìm hiểu được.
 Task 4: Compromise the webserver Sau khi làm xong những task trước thì chúng ta thấy là server cho phép chúng ra upload file có phần mở rộng là .</description>
     

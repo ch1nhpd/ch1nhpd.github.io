@@ -14,11 +14,68 @@
   <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
   <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
   <copyright>©2021, All Rights Reserved</copyright>
-  <lastBuildDate>Fri, 05 Nov 2021 17:00:06 +0700</lastBuildDate>
+  <lastBuildDate>Sun, 07 Nov 2021 15:00:06 +0700</lastBuildDate>
   
     <atom:link href="https://ch1nhpd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
   
 
+   
+   <item>
+    <title>Awesome OSCP resources</title>
+    <link>https://ch1nhpd.github.io/posts/awesome-oscp-resources/</link>
+    <pubDate>Sun, 07 Nov 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Sun, 07 Nov 2021 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/posts/awesome-oscp-resources/</guid>
+    <description>Resources Adithyan AK&amp;rsquo;s personal notes: https://blog.adithyanak.com/oscp-preparation-guide/enumeration
+TJnull’s list updated list 2021 : https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=0
+OSCP Journeys and Preparation guides:   https://medium.com/@parthdeshani/how-to-pass-oscp-like-boss-b269f2ea99d
+  https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html
+  https://medium.com/@calmhavoc/oscp-the-pain-the-pleasure-a506962baad
+  https://github.com/burntmybagel/OSCP-Prep
+  https://medium.com/@m4lv0id/and-i-did-oscp-589babbfea19
+  https://gr0sabi.github.io/security/oscp-insights-best-practices-resources/#note-taking
+  https://satiex.net/2019/04/10/offensive-security-certified-professional/amp/?__twitter_impression=true
+  https://hakin9.org/try-harder-my-penetration-testing-with-kali-linux-oscp-review-and-courselab-experience-my-oscp-review-by-jason-bernier/
+  https://theslickgeek.com/oscp/
+  http://dann.com.br/oscp-offensive-security-certification-pwk-course-review/
+  https://h0mbre.github.io/OSCP/#
+  https://prasannakumar.in/infosec/my-walk-towards-cracking-oscp/
+  https://infosecuritygeek.com/my-oscp-journey/
+  https://acknak.fr/en/articles/oscp-tools/
+  https://r3dg33k.com/2018-10-09-oscp-exp/
+  https://www.jimwilbur.com/oscp-links/
+  https://www.linkedin.com/pulse/road-oscp-oluwaseun-oyelude-oscp
+  https://scund00r.</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>OSCP</category>
+      
+     
+      
+     
+      
+     
+    
+    
+     
+      
+       <category>OSCP</category>
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
    
    <item>
     <title>Vulnversity - TryHackMe room</title>
@@ -27,7 +84,7 @@
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Fri, 05 Nov 2021 17:00:06 +0700</atom:modified>
     <guid>https://ch1nhpd.github.io/posts/vulnversity/</guid>
-    <description>chuỗi --Chào các bạn, tiếp tục với các room trong TryHackMe list room from beginer, hôm nay chúng ta cùng đến với bài thực hành Vulnversity nhé!
+    <description>Chào các bạn, tiếp tục với các room trong TryHackMe list room from beginer, hôm nay chúng ta cùng đến với bài thực hành Vulnversity nhé!
 Trong bài này mình chỉ tập trung nói về Task 4 và 5 với những phần còn lại mình tin là các bạn hoàn toàn có thể tự tìm hiểu được.
 Task 4: Compromise the webserver Sau khi làm xong những task trước thì chúng ta thấy là server cho phép chúng ra upload file có phần mở rộng là .</description>
     
