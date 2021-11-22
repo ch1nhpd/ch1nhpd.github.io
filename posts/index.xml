@@ -22,11 +22,11 @@
    
    <item>
     <title>Smag Grotto - TryHackMe</title>
-    <link>https://ch1nhpd.github.io/posts/tmp/</link>
+    <link>https://ch1nhpd.github.io/posts/smag-grotto/</link>
     <pubDate>Mon, 22 Nov 2021 15:00:06 +0700</pubDate>
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Mon, 22 Nov 2021 15:00:06 +0700</atom:modified>
-    <guid>https://ch1nhpd.github.io/posts/tmp/</guid>
+    <guid>https://ch1nhpd.github.io/posts/smag-grotto/</guid>
     <description>chuỗi --Hello, chào mừng các bạn đến với bài viết ngày hôm nay, Let&amp;rsquo;s get started&amp;hellip;
 Đầu tiên, chúng ta dùng nmap để xem trên server victim mở những cổng nào
 Tiếp theo mình dùng dirseach để tìm các thư mục cũng như các file trong web. Và đây là kết quả
