@@ -1770,18 +1770,18 @@
 <p>Có đc file rồi chúng ta dùng wireshark để phân tích file đó. Để ý packet thứ 4 thì ta nhìn thấy username và password đăng nhập vào địa chỉ <a href="http://development.smag.thm/login.php">http://development.smag.thm/login.php</a> ở dạng rõ luôn. Sau một hồi loay hoay với cái địa chỉ kia thì mình nghĩ có khi nó là cái tên của server bài cho. Thử ngay thôi nào&hellip;</p>
 <p>Để có thể trỏ cái link kia đến ip bài cho ta cần sửa file /etc/hosts (nhớ sudo mới sửa đc nhé!)<br />
 <img src="https://ch1nhpd.github.io/images/posts/sG6.png" alt="sG6" /></p>
-<p>Rồi tiếp theo là vào link kia để đăng nhập thì ta thấy có một chỗ để command. Nhìn thấy nó là nghĩ ngay đến <a href="https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet">reverse shell.</a> Ở đây mình dùng netcat. Nhớ listen trước khi chạy lệnh kia nhé.</p>
+<p>Rồi tiếp theo là vào link kia để đăng nhập thì ta thấy có một chỗ để run command. Nhìn thấy nó là nghĩ ngay đến <a href="https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet">reverse shell.</a> Ở đây mình dùng netcat. Nhớ listen trước khi chạy lệnh kia nhé.</p>
 <p><img src="https://ch1nhpd.github.io/images/posts/sG7.png" alt="sG7" /></p>
 <h2 id="privilege-escalation">Privilege Escalation</h2>
 <p>Khi vào được máy victim thì chắc chắn phải lần được chỗ để leo root thì mới lấy được flag. Sau một vài cái như <code>sudo -l</code>, <code>/etc/passwd</code>,&hellip; thì cuối cùng cũng tìm được manh mối chính là <code>crontab</code>.</p>
 <p><img src="https://ch1nhpd.github.io/images/posts/sG8.png" alt="crontab" /></p>
-<p>Như các bạn nhìn thấy thì crontab sẽ thực hiện đọc file <code>/opt/.backups/jake_id_rsa.pub.backup</code> rồi ghi đè lên file <code>/home/jake/.ssh/authorized_keys</code>. Do đó, nếu ta đẩy được cái authorized_keys của mình vào file jake_id_rsa.pub.backup thì ta có thể chiếm được quyền của jake.</p>
+<p>Như các bạn nhìn thấy thì có một cron job thực hiện command đọc file <code>/opt/.backups/jake_id_rsa.pub.backup</code> rồi ghi đè lên file <code>/home/jake/.ssh/authorized_keys</code>. Do đó, nếu ta đẩy được cái authorized_keys của mình vào file jake_id_rsa.pub.backup thì ta có thể ssh đến server dưới quyền của jake.</p>
 <p>Để làm đc điều đó, ta dùng <code>ssh-keygen</code> để tạo ra một bộ <code>identification</code> và <code>public key</code> (authorized_key).</p>
 <p><img src="https://ch1nhpd.github.io/images/posts/sG88.png" alt="sG88" /></p>
-<p>Tiếp theo thì chèn cái public key vào  /opt/.backups/jake_id_rsa.pub.backup còn lại cứ để crontab lo.</p>
+<p>Tiếp theo thì chèn cái public key vào  /opt/.backups/jake_id_rsa.pub.backup còn lại cứ để cron lo.</p>
 <p><img src="https://ch1nhpd.github.io/images/posts/sG10.png" alt="sG9" /></p>
-<p>Sau khi dùng <code>identification</code> để ssh vào server thì ta lấy được flag của user. Và việc tiếp theo là xem từ vị trí này, ta có thể lên root theo cách nào. Lần này thì khi <code>sudo -l</code> ta phát hiện được jake có thể chạy <code>apt-get</code> bằng sudo.<br />
-<img src="https://ch1nhpd.github.io/images/posts/sG11.png" alt="sg11" /><br />
+<p>Sau khi dùng <code>identification</code> để ssh vào server thì ta lấy được flag của user. Và việc tiếp theo là xem từ vị trí này, ta có thể lên root theo cách nào. Lần này thì khi <code>sudo -l</code> ta phát hiện được jake có thể chạy <code>apt-get</code> bằng sudo.</p>
+<p><img src="https://ch1nhpd.github.io/images/posts/sG11.png" alt="sg11" /><br />
 <img src="https://ch1nhpd.github.io/images/posts/sG12.png" alt="sg12" /><br />
 Vào <a href="https://gtfobins.github.io/gtfobins/apt-get/#sudo">GTFOBins</a> để tìm thì ta thấy qua apt-get ta hoàn toàn có thể leo lên root như sau:</p>
 <p><img src="https://ch1nhpd.github.io/images/posts/sGdone.png" alt="sGdone" /></p>
