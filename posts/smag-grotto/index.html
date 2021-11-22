@@ -1715,7 +1715,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Nov 22, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🤖&nbsp;ch1nhpd</span>
   
@@ -1743,35 +1743,48 @@
   What&#39;s on this Page
  </button>
  <div class="expand__content expand__content--toc">
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#enumeration">Enumeration</a></li>
+    <li><a href="#exploitation">Exploitation</a></li>
+    <li><a href="#privilege-escalation">Privilege Escalation</a></li>
+  </ul>
+</nav>
  </div>
 </div>
 
    <!--
 đổi màu :  <span style="color:lime">   chuỗi </span>
 -->
-<p>Hello, chào mừng các bạn đến với bài viết ngày hôm nay, Let&rsquo;s get started&hellip;</p>
-<p>Đầu tiên, chúng ta dùng nmap để xem trên server victim mở những cổng nào<br />
-<img src="https://ch1nhpd.github.io/images/posts/sG1.png" alt="nmap" /></p>
-<p>Tiếp theo mình dùng dirseach để tìm các thư mục cũng như các file trong web. Và đây là kết quả<br />
-<img src="" alt="dirsearch" /></p>
-<p>Tiếp tục vào trong cái link tìm đc xem thấy gì nào&hellip;<br />
-<img src="https://ch1nhpd.github.io/images/posts/sG4.png" alt="sg4" /></p>
+<p>Hello, chào mừng các bạn đến với bài viết ngày hôm nay. Let&rsquo;s get started&hellip;</p>
+<h2 id="enumeration">Enumeration</h2>
+<p>Đầu tiên, chúng ta dùng nmap để xem trên server victim mở những cổng nào</p>
+<p><img src="https://ch1nhpd.github.io/images/posts/sG1.png" alt="nmap" /></p>
+<p>Tiếp theo mình dùng dirsearch để tìm các thư mục cũng như các file trong web. Và đây là kết quả<br />
+<img src="https://ch1nhpd.github.io/images/posts/sG2.png" alt="dirsearch" /></p>
+<p>Ngoài dirsearch ra thì còn có rất nhiều tool tương tự khác như: ffuf, gobuster,&hellip;</p>
+<h2 id="exploitation">Exploitation</h2>
+<p>Tiếp tục vào trong cái link tìm đc xem thấy gì nào&hellip;</p>
+<p><img src="https://ch1nhpd.github.io/images/posts/sG4.png" alt="sg4" /></p>
 <p>Ở đây ta thấy có đường dẫn tới một file .pcap và có một lưu ý là phải dùng wget để lấy file thì mới có được đầy đủ. Ok, thích thì chiều thôi.</p>
-<p>Có đc file rồi chúng ta dùng wireshark để phân tích file đó. Để ý packet thứ 4 thì ta nhìn thấy username và password đăng nhập vào địa chỉ <a href="http://development.smag.thm/login.php">http://development.smag.thm/login.php</a> ở dạng rõ luôn. Sau một hồi loay hoay với cái địa chỉ kia thì mình nghĩ có khi nó là cái tên của server bài cho. Thử thôi nào&hellip;</p>
+<p>Có đc file rồi chúng ta dùng wireshark để phân tích file đó. Để ý packet thứ 4 thì ta nhìn thấy username và password đăng nhập vào địa chỉ <a href="http://development.smag.thm/login.php">http://development.smag.thm/login.php</a> ở dạng rõ luôn. Sau một hồi loay hoay với cái địa chỉ kia thì mình nghĩ có khi nó là cái tên của server bài cho. Thử ngay thôi nào&hellip;</p>
 <p>Để có thể trỏ cái link kia đến ip bài cho ta cần sửa file /etc/hosts (nhớ sudo mới sửa đc nhé!)<br />
 <img src="https://ch1nhpd.github.io/images/posts/sG6.png" alt="sG6" /></p>
 <p>Rồi tiếp theo là vào link kia để đăng nhập thì ta thấy có một chỗ để command. Nhìn thấy nó là nghĩ ngay đến <a href="https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet">reverse shell.</a> Ở đây mình dùng netcat. Nhớ listen trước khi chạy lệnh kia nhé.</p>
 <p><img src="https://ch1nhpd.github.io/images/posts/sG7.png" alt="sG7" /></p>
-<p>Khi vào được máy victim thì chắc chắn phải lần được chỗ để leo root thì mới lấy được flag. Sau một vài cái như sudo -l, /etc/passwd,&hellip; thì cuối cùng ta cũng tìm được manh mối chính là crontab.</p>
+<h2 id="privilege-escalation">Privilege Escalation</h2>
+<p>Khi vào được máy victim thì chắc chắn phải lần được chỗ để leo root thì mới lấy được flag. Sau một vài cái như <code>sudo -l</code>, <code>/etc/passwd</code>,&hellip; thì cuối cùng cũng tìm được manh mối chính là <code>crontab</code>.</p>
 <p><img src="https://ch1nhpd.github.io/images/posts/sG8.png" alt="crontab" /></p>
-<p>Như các bạn nhìn thấy thì crontab sẽ thực hiện đọc file /opt/.backups/jake_id_rsa.pub.backup rồi ghi đè lên file /home/jake/.ssh/authorized_keys. Do đó, nếu ta đẩy được cái authorized_keys của mình vào file jake_id_rsa.pub.backup thì ta có thể chiếm được quyền của jake.</p>
-<p>Để làm đc điều đó, ta dùng ssh-keygen để tạo ra một bộ identification và public key (authorized_key).</p>
+<p>Như các bạn nhìn thấy thì crontab sẽ thực hiện đọc file <code>/opt/.backups/jake_id_rsa.pub.backup</code> rồi ghi đè lên file <code>/home/jake/.ssh/authorized_keys</code>. Do đó, nếu ta đẩy được cái authorized_keys của mình vào file jake_id_rsa.pub.backup thì ta có thể chiếm được quyền của jake.</p>
+<p>Để làm đc điều đó, ta dùng <code>ssh-keygen</code> để tạo ra một bộ <code>identification</code> và <code>public key</code> (authorized_key).</p>
 <p><img src="https://ch1nhpd.github.io/images/posts/sG88.png" alt="sG88" /></p>
-<p>Tiếp theo thì chèn cái public key vào  /opt/.backups/jake_id_rsa.pub.backup còn đâu cứ để crontab lo.</p>
-<p><img src="https://ch1nhpd.github.io/images/posts/sG9.png" alt="sG9" /></p>
-<p>Sau khi dùng identification để ssh vào server thì ta lấy được flag của user. Và việc tiếp theo xem từ vị trí này ta có thể lên root theo cách nào. Lần này thì khi sudo -l ta phát hiện được jake có thể chạy apt-get bằng sudo. Vào <a href="https://gtfobins.github.io/gtfobins/apt-get/#sudo">GTFOBins</a> để tìm thì ta thấy qua apt-get ta hoàn toàn có thể leo lên root như sau:</p>
-<p><img src="sGdone.png" alt="sGdone" /></p>
+<p>Tiếp theo thì chèn cái public key vào  /opt/.backups/jake_id_rsa.pub.backup còn lại cứ để crontab lo.</p>
+<p><img src="https://ch1nhpd.github.io/images/posts/sG10.png" alt="sG9" /></p>
+<p>Sau khi dùng <code>identification</code> để ssh vào server thì ta lấy được flag của user. Và việc tiếp theo là xem từ vị trí này, ta có thể lên root theo cách nào. Lần này thì khi <code>sudo -l</code> ta phát hiện được jake có thể chạy <code>apt-get</code> bằng sudo.<br />
+<img src="https://ch1nhpd.github.io/images/posts/sG11.png" alt="sg11" /><br />
+<img src="https://ch1nhpd.github.io/images/posts/sG12.png" alt="sg12" /><br />
+Vào <a href="https://gtfobins.github.io/gtfobins/apt-get/#sudo">GTFOBins</a> để tìm thì ta thấy qua apt-get ta hoàn toàn có thể leo lên root như sau:</p>
+<p><img src="https://ch1nhpd.github.io/images/posts/sGdone.png" alt="sGdone" /></p>
 <p><a href="https://www.youtube.com/watch?v=ilB9h1pfjc8">Và thế là hết</a>&hellip;.</p>
 <p>Hẹn gặp lại các bạn ở bài viết tiếp theo. Happy hacking &lt;3</p>
 
@@ -2509,7 +2522,13 @@ document.addEventListener('DOMContentLoaded', function () {
   
  </div>
  <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#enumeration">Enumeration</a></li>
+    <li><a href="#exploitation">Exploitation</a></li>
+    <li><a href="#privilege-escalation">Privilege Escalation</a></li>
+  </ul>
+</nav>
  </div>
 </section>
 

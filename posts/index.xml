@@ -27,11 +27,10 @@
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Mon, 22 Nov 2021 15:00:06 +0700</atom:modified>
     <guid>https://ch1nhpd.github.io/posts/smag-grotto/</guid>
-    <description>chuỗi --Hello, chào mừng các bạn đến với bài viết ngày hôm nay, Let&amp;rsquo;s get started&amp;hellip;
-Đầu tiên, chúng ta dùng nmap để xem trên server victim mở những cổng nào
-Tiếp theo mình dùng dirseach để tìm các thư mục cũng như các file trong web. Và đây là kết quả
-Tiếp tục vào trong cái link tìm đc xem thấy gì nào&amp;hellip;
-Ở đây ta thấy có đường dẫn tới một file .</description>
+    <description>chuỗi --Hello, chào mừng các bạn đến với bài viết ngày hôm nay. Let&amp;rsquo;s get started&amp;hellip;
+Enumeration Đầu tiên, chúng ta dùng nmap để xem trên server victim mở những cổng nào
+Tiếp theo mình dùng dirsearch để tìm các thư mục cũng như các file trong web. Và đây là kết quả
+Ngoài dirsearch ra thì còn có rất nhiều tool tương tự khác như: ffuf, gobuster,&amp;hellip;</description>
     
     <dc:creator>ch1nhpd</dc:creator>
     <media:content url="https://ch1nhpd.github.io/images/posts/Smag_Grotto.png" medium="image"><media:title type="html">featured image</media:title></media:content>
