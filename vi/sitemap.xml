@@ -15,17 +15,8 @@
                 href="https://ch1nhpd.github.io/"
                 />
   </url><url>
-    <loc>https://ch1nhpd.github.io/posts/</loc>
-    <lastmod>2021-11-22T15:00:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/posts/smag-grotto/</loc>
-    <lastmod>2021-11-22T15:00:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/posts/awesome-oscp-resources/</loc>
-    <lastmod>2021-11-07T15:00:06+07:00</lastmod>
-  </url><url>
     <loc>https://ch1nhpd.github.io/categories/</loc>
-    <lastmod>2021-11-07T15:00:06+07:00</lastmod>
+    <lastmod>2021-11-22T15:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -37,14 +28,14 @@
                 href="https://ch1nhpd.github.io/categories/"
                 />
   </url><url>
-    <loc>https://ch1nhpd.github.io/tags/oscp/</loc>
-    <lastmod>2021-11-07T15:00:06+07:00</lastmod>
+    <loc>https://ch1nhpd.github.io/posts/</loc>
+    <lastmod>2021-11-22T15:00:06+07:00</lastmod>
   </url><url>
-    <loc>https://ch1nhpd.github.io/categories/oscp/</loc>
-    <lastmod>2021-11-07T15:00:06+07:00</lastmod>
+    <loc>https://ch1nhpd.github.io/posts/smag-grotto/</loc>
+    <lastmod>2021-11-22T15:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/</loc>
-    <lastmod>2021-11-07T15:00:06+07:00</lastmod>
+    <lastmod>2021-11-22T15:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -56,13 +47,25 @@
                 href="https://ch1nhpd.github.io/tags/"
                 />
   </url><url>
+    <loc>https://ch1nhpd.github.io/tags/tryhackme/</loc>
+    <lastmod>2021-11-22T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/categories/tryhackme/</loc>
+    <lastmod>2021-11-22T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/posts/awesome-oscp-resources/</loc>
+    <lastmod>2021-11-07T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/oscp/</loc>
+    <lastmod>2021-11-07T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/categories/oscp/</loc>
+    <lastmod>2021-11-07T15:00:06+07:00</lastmod>
+  </url><url>
     <loc>https://ch1nhpd.github.io/tags/linux/</loc>
     <lastmod>2021-11-05T17:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/categories/privesc/</loc>
-    <lastmod>2021-11-05T17:00:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/tryhackme/</loc>
     <lastmod>2021-11-05T17:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/posts/vulnversity/</loc>
@@ -90,9 +93,6 @@
     <lastmod>2021-10-13T23:12:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/notes/ohsint/</loc>
-    <lastmod>2021-10-13T23:12:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/categories/tryhackme/</loc>
     <lastmod>2021-10-13T23:12:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/categories/pentest/</loc>
