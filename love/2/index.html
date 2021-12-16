@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/313025c77d.js" crossorigin="anonymous"></script>
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BVHL0CPG6X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BVHL0CPG6X');
+  var audio0 = new Audio('sound/sound.mp3');
+    audio0.play();
+</script>
+
+<body onload="playAudio()">
+
+  <div class="container">
+    <p id="days"> Noel này cậu đi chơi với tớ nhé ^^ </p>
+    <div class="rep">
+      <button style="position: absolute;" class= "no">Không</button>
+      <a class="yes" id="yes" href="yes.html">Tớ đồng ý <i style="color: red;" class="fas fa-heart"></i></a>
+    </div>
+    <img style="height: 50%; margin-left: 120px;" src="thong.png">
+    <img style="height: 60%; float: right; margin-right: 120px;" src="onggia.png">
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+<script>
+  $('button').on('mouseover', function () {
+    $(this).animate({
+      'top': Math.random() * window.innerHeight + "px",
+      'left': Math.random() * window.innerWidth + "px"
+    }, "medium");
+  })
+</script>
+
+</html>

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+  background-color: #F24236;
+  width: 100%;
+  font-family: 'Lobster', cursive;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  margin-top: 15%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.rep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yes-page {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: red;
+  background-color: white;
+}
+
+#days {
+  font-size: 50px;
+  color: #FFF;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.yes {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 60px;
+	text-decoration: none;
+	padding: 10px 20px;
+  background-color: white;
+  color: black;
+	border: 3px solid #ddd;
+	border-radius: 10px;
+}
+
+.no {
+  margin-right: 300px;
+  font-size: 24px;
+	text-decoration: none;
+  padding: 10px 20px;
+  background-color: white;
+	border: 3px solid #ddd;
+	border-radius: 10px;
+}
+
+.yes-page img{
+  height: 120px;
+	width: 130px;
+	animation: image 4s linear infinite;
+}
+
+.drop {
+	position: absolute;
+	top: 0;	
+	z-index: -1;
+  opacity: 0;
+}
+.snow {
+	height: 8px;
+	width: 8px;
+	border-radius: 100%;
+	background-color: #FFF;
+  box-shadow: 0 0 10px #FFF
+}
+
+
+.animate {
+	animation: falling 8.5s infinite ease-in;	
+}
+
+
+@keyframes falling {
+	0% {top: 0; opacity: 1;}
+	100% {top: 1500px; opacity: 0}
+}
+
+@keyframes image {
+	0% {
+		transform: scale(.5);
+	}
+
+	50% {
+		transform: scale(1.5);
+	}
+
+	100% {
+		transform: scale(.5);
+	}
+}
+1
