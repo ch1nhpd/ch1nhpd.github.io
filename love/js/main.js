@@ -1,8 +1,7 @@
 $(document).ready(function() {
     // process bar
 
-    var audio0 = new Audio('sound/sound.mp3');
-    audio0.play();
+   
     setTimeout(function() {
         firstQuestion();
         $('.spinner').fadeOut();

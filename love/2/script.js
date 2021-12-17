@@ -5,14 +5,7 @@ $(document).ready(function() {
 
     var audio0 = new Audio('sound/sound.mp3');
     audio0.play();
-    setTimeout(function() {
-        firstQuestion();
-        $('.spinner').fadeOut();
-        $('#preloader').delay(350).fadeOut('slow');
-        $('body').delay(350).css({
-            'overflow': 'visible'
-        });
-    }, 600);
+   
 })
 
 function snow(num, speed) {
