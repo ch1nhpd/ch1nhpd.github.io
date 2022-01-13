@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+ xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:atom="http://www.w3.org/2005/Atom" 
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+ xmlns:media="http://search.yahoo.com/mrss/">
+ <channel>
+  <title>command injection on ch1nhpd</title>
+  <link>https://ch1nhpd.github.io/tags/command-injection/</link>
+  <description>Recent content in command injection on ch1nhpd</description>
+  <generator>Hugo -- gohugo.io</generator>
+  <language>vi</language>
+  <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
+  <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
+  <copyright>©2022, All Rights Reserved</copyright>
+  <lastBuildDate>Thu, 13 Jan 2022 15:00:06 +0700</lastBuildDate>
+  
+    <atom:link href="https://ch1nhpd.github.io/tags/command-injection/index.xml" rel="self" type="application/rss+xml" />
+  
+
+   
+   <item>
+    <title>Command injection - Filter bypass | root-me.org</title>
+    <link>https://ch1nhpd.github.io/posts/command-injection-filter-bypass/</link>
+    <pubDate>Thu, 13 Jan 2022 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Thu, 13 Jan 2022 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/posts/command-injection-filter-bypass/</guid>
+    <description>chuỗi --Chào mừng các bạn đến với challenge lần này. Link mình để ở đây nhé! Cùng bắt đầu ngay nàooo
+InTr0 Nếu bạn nào là làm phần 1 thì có thể nhận ra ngay là bài này sẽ cho ta nhập vào một ip sau đó thực hiện ping tới ip đó rồi cho ta kết quả. Ở phần 1 thì đơn giản là ta chỉ cần nối thêm một lệnh khác vào là có thể lấy được flag ngay</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/posts/commandInjection.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>rootme</category>
+      
+     
+      
+       <category>web-server</category>
+      
+     
+      
+       <category>command injection</category>
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
+   
+
+  
+ </channel>
+</rss>
