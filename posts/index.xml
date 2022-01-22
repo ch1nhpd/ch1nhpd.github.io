@@ -14,11 +14,47 @@
   <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
   <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
   <copyright>©2022, All Rights Reserved</copyright>
-  <lastBuildDate>Thu, 13 Jan 2022 15:00:06 +0700</lastBuildDate>
+  <lastBuildDate>Sat, 22 Jan 2022 15:00:06 +0700</lastBuildDate>
   
     <atom:link href="https://ch1nhpd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
   
 
+   
+   <item>
+    <title>File Upload Vulnerability</title>
+    <link>https://ch1nhpd.github.io/posts/file-upload/</link>
+    <pubDate>Sat, 22 Jan 2022 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Sat, 22 Jan 2022 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/posts/file-upload/</guid>
+    <description>chuỗi --Decription Các tệp đã được tải lên có thể gây rủi ro đáng kể cho các ứng dụng. Bước đầu tiên trong nhiều cuộc tấn công là đưa được đoạn code của mình lên hệ thống của nạn nhân. Sau đó tìm cách để có thể thực thi đoạn code đó. Và upload file là một cách có thể giúp ta đẩy được đoạn code đó tới server của nạn nhân.</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/posts/file-upload-vulnerabilities.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>File upload</category>
+      
+     
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
    
    <item>
     <title>Command injection - Filter bypass | root-me.org</title>
@@ -338,6 +374,42 @@ Tất nhiên là không thể nhảy lộn xộn như vậy được rồi vì m
      
       
        <category>pentest</category>
+      
+     
+    
+    
+   </item>
+   
+   <item>
+    <title>Server-site request forgery</title>
+    <link>https://ch1nhpd.github.io/posts/ssrf/</link>
+    <pubDate>Sun, 03 Oct 2021 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Sun, 03 Oct 2021 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/posts/ssrf/</guid>
+    <description>chuỗi --https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>SSRF</category>
+      
+     
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+     
       
      
     

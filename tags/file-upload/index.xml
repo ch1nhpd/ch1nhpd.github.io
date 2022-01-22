@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+ xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:atom="http://www.w3.org/2005/Atom" 
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+ xmlns:media="http://search.yahoo.com/mrss/">
+ <channel>
+  <title>File upload on ch1nhpd</title>
+  <link>https://ch1nhpd.github.io/tags/file-upload/</link>
+  <description>Recent content in File upload on ch1nhpd</description>
+  <generator>Hugo -- gohugo.io</generator>
+  <language>vi</language>
+  <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
+  <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
+  <copyright>©2022, All Rights Reserved</copyright>
+  <lastBuildDate>Sat, 22 Jan 2022 15:00:06 +0700</lastBuildDate>
+  
+    <atom:link href="https://ch1nhpd.github.io/tags/file-upload/index.xml" rel="self" type="application/rss+xml" />
+  
+
+   
+   <item>
+    <title>File Upload Vulnerability</title>
+    <link>https://ch1nhpd.github.io/posts/file-upload/</link>
+    <pubDate>Sat, 22 Jan 2022 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Sat, 22 Jan 2022 15:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/posts/file-upload/</guid>
+    <description>chuỗi --Decription Các tệp đã được tải lên có thể gây rủi ro đáng kể cho các ứng dụng. Bước đầu tiên trong nhiều cuộc tấn công là đưa được đoạn code của mình lên hệ thống của nạn nhân. Sau đó tìm cách để có thể thực thi đoạn code đó. Và upload file là một cách có thể giúp ta đẩy được đoạn code đó tới server của nạn nhân.</description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/posts/file-upload-vulnerabilities.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>File upload</category>
+      
+     
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
+   
+
+  
+ </channel>
+</rss>
