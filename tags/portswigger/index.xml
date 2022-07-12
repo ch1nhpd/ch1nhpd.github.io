@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+ xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:atom="http://www.w3.org/2005/Atom" 
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+ xmlns:media="http://search.yahoo.com/mrss/">
+ <channel>
+  <title>portswigger on ch1nhpd</title>
+  <link>https://ch1nhpd.github.io/tags/portswigger/</link>
+  <description>Recent content in portswigger on ch1nhpd</description>
+  <generator>Hugo -- gohugo.io</generator>
+  <language>vi</language>
+  <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
+  <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
+  <copyright>©2022, All Rights Reserved</copyright>
+  <lastBuildDate>Tue, 22 Feb 2022 09:00:06 +0700</lastBuildDate>
+  
+    <atom:link href="https://ch1nhpd.github.io/tags/portswigger/index.xml" rel="self" type="application/rss+xml" />
+  
+
+   
+   <item>
+    <title>Authentication vulnerabilities</title>
+    <link>https://ch1nhpd.github.io/posts/authentication-vulnerabilities/</link>
+    <pubDate>Tue, 22 Feb 2022 09:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Tue, 22 Feb 2022 09:00:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/posts/authentication-vulnerabilities/</guid>
+    <description>chuỗi --Authentication factors  Something you know: password,&amp;hellip;. Something you have: phone number, security token Something you are: your biometrics or patterns of behavior  How do authentication vulnerabilities arise?  brute-force attacks logic flaws or poor coding  Vulnerabilities in password-based login Brute-force attack  brute-force username, password enum username  </description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>Authentication vulnerabilities</category>
+      
+     
+      
+       <category>portswigger</category>
+      
+     
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
+   
+
+  
+ </channel>
+</rss>

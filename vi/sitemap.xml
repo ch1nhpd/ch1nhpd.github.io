@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ch1nhpd.github.io/</loc>
-    <lastmod>2022-01-22T15:00:06+07:00</lastmod>
+    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,17 +15,20 @@
                 href="https://ch1nhpd.github.io/"
                 />
   </url><url>
-    <loc>https://ch1nhpd.github.io/tags/file-upload/</loc>
-    <lastmod>2022-01-22T15:00:06+07:00</lastmod>
+    <loc>https://ch1nhpd.github.io/tags/authentication-vulnerabilities/</loc>
+    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
   </url><url>
-    <loc>https://ch1nhpd.github.io/posts/file-upload/</loc>
-    <lastmod>2022-01-22T15:00:06+07:00</lastmod>
+    <loc>https://ch1nhpd.github.io/posts/authentication-vulnerabilities/</loc>
+    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/portswigger/</loc>
+    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/posts/</loc>
-    <lastmod>2022-01-22T15:00:06+07:00</lastmod>
+    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/</loc>
-    <lastmod>2022-01-22T15:00:06+07:00</lastmod>
+    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -36,6 +39,12 @@
                 hreflang="vi"
                 href="https://ch1nhpd.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/file-upload/</loc>
+    <lastmod>2022-01-22T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/posts/file-upload/</loc>
+    <lastmod>2022-01-22T15:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/command-injection/</loc>
     <lastmod>2022-01-13T15:00:06+07:00</lastmod>

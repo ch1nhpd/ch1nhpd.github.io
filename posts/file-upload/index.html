@@ -1668,7 +1668,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Jan 22, 2022 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;4&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;7&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🤖&nbsp;ch1nhpd</span>
   
@@ -1706,6 +1706,12 @@
       <ul>
         <li><a href="#attacks-on-application-platform">Attacks on application platform</a></li>
         <li><a href="#attacks-on-other-systems">Attacks on other systems</a></li>
+      </ul>
+    </li>
+    <li><a href="#bypass-một-số-phương-pháp-bảo-vệ-yếu">Bypass một số phương pháp bảo vệ yếu</a>
+      <ul>
+        <li><a href="#từ-chối-file-extensions">Từ chối file Extensions</a></li>
+        <li><a href="#reference">Reference</a></li>
       </ul>
     </li>
   </ul>
@@ -1775,7 +1781,44 @@
 <li>Upload .rar file để được scan bởi antivirus: commands được thực thi trên máy chủ đang chạy phần mềm antivirus.</li>
 </ul>
 <h3 id="attacks-on-other-systems">Attacks on other systems</h3>
-<p><a href="">UPDATING&hellip;.</a></p>
+<ul>
+<li>Upload .exe file vào web tree: victims vô tình download tệp trojan có thể thực thi.</li>
+<li>Upload file bị nhiễm virus: lây sang máy victim</li>
+<li>Upload .html file có chứa script: cuộc tấn công XSS</li>
+<li>Upload .jpg file chứa đối tượng Flash: cuộc tấn công Cross-site Content Hijacking.</li>
+<li>Upload .rar file để được scan bởi antivirus: commands được thực thi trên máy client đang chạy phần mềm antivirus.</li>
+</ul>
+<h2 id="bypass-một-số-phương-pháp-bảo-vệ-yếu">Bypass một số phương pháp bảo vệ yếu</h2>
+<h3 id="từ-chối-file-extensions">Từ chối file Extensions</h3>
+<p>Có thể bypass bằng cách:</p>
+<ul>
+<li>Tìm các extension bị bỏ quên mà  có thể thực thi ở phía server hoặc gây nguy hiểm ở phía client như:<code>.php, .pht, .phtml, .shtml, .asa, .cer, .asax, .swf, .xap</code></li>
+<li>Tìm sai sót trong việc cấu hình server, khi nó phân tích cú pháp các tệp có phần mở rộng kép (double extension) hoặc thực thi chúng bằng cách cung cấp phần mở rộng nhạy cảm sau dấu phân cách như &ldquo;/&rdquo; hoặc &ldquo;;&rdquo;</li>
+</ul>
+<blockquote>
+<p>VD: &ldquo;/file.jpg/index.php&rdquo; . Khi &ldquo;file.jpg&rdquo; file chứa PHP  code và đã được upload.<br />
+- Với Apache, php file có thể được thực thi bằng cách sử dụng kĩ thuật double extension như &ldquo;file.php.jpg&rdquo; (giả sử .jpg được chấp nhận)<br />
+- Với IIS6 (hoặc các bản cũ hơn), script file có thể đucợ thực thi bằng một trong hai cách sau:<br />
+-  Thêm &ldquo;;&rdquo; vào sau extension bị cấm và trước extension được phép (VD: file.asp;.jpg)<br />
+- Đổi tên script file&rsquo;s extension (VD: .asp) thành extension được phép (VD: .txt) đồng thời cái folder chứa nó cũng phải đổi thành đuôi bị cấm (VD: folder.asp).</p>
+</blockquote>
+<ul>
+<li>Sửa một số kí tự trong extension thành viết hoa (VD: .pHp, .ASp)</li>
+<li>Thay thế một tệp hiện có thành tên thay thế(shortname) của nó (VD: web.config -&gt; web~1.con ; .htaccess -&gt; HTACCE~1 ) (Đây là một tính năng của Win 8.3)</li>
+<li>Tìm các kí tự được chuyển đổi thành kí tự hữu ích khác trong quá trình upload file. VD: khi chạy PHP trong IIS, &ldquo;&lt;&rdquo;, &ldquo;&gt;&rdquo; và dấu nháy kép chuyển đổi tương ứng với &ldquo;?&rdquo;, &ldquo;*&rdquo;, &ldquo;.&rdquo;  (VD: web&quot;config tức là web.config)</li>
+<li>Tìm các kí tự trung tính đằng sau tên tệp như dấu cách, dấu chấm hoặc các kí tự gạch chéo. Các kí tự này sẽ bị xóa một cách tự động. (VD: &ldquo;file.asp . .. . .. &hellip;&rdquo;, &ldquo;file.asp &ldquo;, &ldquo;file.asp.&quot;). Mặc dù các kí tự như &ldquo;/&rdquo; hay &ldquo;&quot; thường bị cho là có vấn đề (tức là victim block kí tự này rồi) nhưng cứ phải thử biết đâu ấm ớ lại vớ huy chương (VD: &ldquo;file.asp./&quot;)</li>
+<li>Tìm các sai sót trong kỹ thuật phát hiện extension. Web server có thể chỉ kiểm tra cái đầu tiên sau dấu &ldquo;.&rdquo; nhưng mình có thể có &ldquo;file.txt.jpg.php&rdquo;</li>
+<li>Sử dụng kí tự điều khiển như NULL(0x00) sau extension bị cấm và trước extension được phép để bypass. Khi lưu file, tất cả các kí tự sau NULL sẽ được bỏ đi. Cả URL-encode lẫn decode của kí tự NULL ddeeuf phải được thử trong một file upload request để kiểm tra thật kỹ lưỡng.</li>
+<li>Dùng NTFS <br />
+<a href="">UPDATING&hellip;.</a></li>
+</ul>
+<h3 id="reference">Reference</h3>
+<ul>
+<li><a href="https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload#">https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload#</a></li>
+<li><a href="https://portswigger.net/web-security/file-upload">https://portswigger.net/web-security/file-upload</a></li>
+<li><a href="https://book.hacktricks.xyz/pentesting-web/file-upload">https://book.hacktricks.xyz/pentesting-web/file-upload</a></li>
+<li><a href="https://github.com/portswigger/upload-scanner">https://github.com/portswigger/upload-scanner</a></li>
+</ul>
 
   </article>
   
@@ -2159,6 +2202,13 @@
   
   <div class="grow"></div>
   
+   <a href="https://ch1nhpd.github.io/posts/authentication-vulnerabilities/" class="pagination-single__right">   
+    <div class="pagination-single__right-title">Authentication vulnerabilities</div>
+    <div class="pagination-single__icon">
+     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+    </div>
+   </a>
+  
  
 </nav>
   
@@ -2519,6 +2569,12 @@ document.addEventListener('DOMContentLoaded', function () {
       <ul>
         <li><a href="#attacks-on-application-platform">Attacks on application platform</a></li>
         <li><a href="#attacks-on-other-systems">Attacks on other systems</a></li>
+      </ul>
+    </li>
+    <li><a href="#bypass-một-số-phương-pháp-bảo-vệ-yếu">Bypass một số phương pháp bảo vệ yếu</a>
+      <ul>
+        <li><a href="#từ-chối-file-extensions">Từ chối file Extensions</a></li>
+        <li><a href="#reference">Reference</a></li>
       </ul>
     </li>
   </ul>
