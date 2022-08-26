@@ -14,11 +14,101 @@
   <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
   <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
   <copyright>©2022, All Rights Reserved</copyright>
-  <lastBuildDate>Tue, 22 Feb 2022 09:00:06 +0700</lastBuildDate>
+  <lastBuildDate>Fri, 15 Jul 2022 15:00:06 +0700</lastBuildDate>
   
     <atom:link href="https://ch1nhpd.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   
 
+   
+   <item>
+    <title>A01</title>
+    <link>https://ch1nhpd.github.io/tags/a01/</link>
+    <pubDate>Fri, 15 Jul 2022 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/a01/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>Top 10 Owasp 2021</title>
+    <link>https://ch1nhpd.github.io/tags/top-10-owasp-2021/</link>
+    <pubDate>Fri, 15 Jul 2022 15:00:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/top-10-owasp-2021/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>HTB</title>
+    <link>https://ch1nhpd.github.io/tags/htb/</link>
+    <pubDate>Fri, 17 Jun 2022 15:10:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/htb/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>SSTI</title>
+    <link>https://ch1nhpd.github.io/tags/ssti/</link>
+    <pubDate>Fri, 17 Jun 2022 15:10:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/ssti/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
+   
+   <item>
+    <title>web</title>
+    <link>https://ch1nhpd.github.io/tags/web/</link>
+    <pubDate>Fri, 17 Jun 2022 15:10:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    
+    <guid>https://ch1nhpd.github.io/tags/web/</guid>
+    <description></description>
+    
+    <dc:creator>Phạm Đăng Chính</dc:creator>
+    
+    
+    
+    
+    
+    
+   </item>
    
    <item>
     <title>Authentication vulnerabilities</title>
@@ -237,24 +327,6 @@
    </item>
    
    <item>
-    <title>web</title>
-    <link>https://ch1nhpd.github.io/tags/web/</link>
-    <pubDate>Sun, 03 Oct 2021 15:00:06 +0700</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    
-    <guid>https://ch1nhpd.github.io/tags/web/</guid>
-    <description></description>
-    
-    <dc:creator>Phạm Đăng Chính</dc:creator>
-    
-    
-    
-    
-    
-    
-   </item>
-   
-   <item>
     <title>Insecure deserialization</title>
     <link>https://ch1nhpd.github.io/tags/insecure-deserialization/</link>
     <pubDate>Sun, 26 Sep 2021 15:00:06 +0700</pubDate>
@@ -297,24 +369,6 @@
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     
     <guid>https://ch1nhpd.github.io/tags/hackthebox/</guid>
-    <description></description>
-    
-    <dc:creator>Phạm Đăng Chính</dc:creator>
-    
-    
-    
-    
-    
-    
-   </item>
-   
-   <item>
-    <title>markdown</title>
-    <link>https://ch1nhpd.github.io/tags/markdown/</link>
-    <pubDate>Wed, 15 Sep 2021 12:00:06 +0900</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    
-    <guid>https://ch1nhpd.github.io/tags/markdown/</guid>
     <description></description>
     
     <dc:creator>Phạm Đăng Chính</dc:creator>

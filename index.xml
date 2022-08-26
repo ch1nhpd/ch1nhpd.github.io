@@ -14,7 +14,7 @@
   <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
   <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
   <copyright>©2022, All Rights Reserved</copyright>
-  <lastBuildDate>Tue, 22 Feb 2022 09:00:06 +0700</lastBuildDate>
+  <lastBuildDate>Fri, 15 Jul 2022 15:00:06 +0700</lastBuildDate>
   
     <atom:link href="https://ch1nhpd.github.io/index.xml" rel="self" type="application/rss+xml" />
   
@@ -199,107 +199,6 @@ Ngoài ra còn biết thêm là khi view source thì ko chỉ để ý đến co
       
      
     
-    
-   </item>
-   
-   <item>
-    <title>Markdown Syntax Guide</title>
-    <link>https://ch1nhpd.github.io/test/markdown-syntax/</link>
-    <pubDate>Wed, 15 Sep 2021 12:00:06 +0900</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    <atom:modified>Wed, 15 Sep 2021 12:00:06 +0900</atom:modified>
-    <guid>https://ch1nhpd.github.io/test/markdown-syntax/</guid>
-    <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    
-    <dc:creator>Choi</dc:creator>
-    <media:content url="https://ch1nhpd.github.io/images/posts/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-    
-    
-    
-     
-      
-       <category>markdown</category>
-      
-     
-    
-    
-     
-      
-       <category>syntax</category>
-      
-     
-    
-    
-   </item>
-   
-   <item>
-    <title>Shortcodes</title>
-    <link>https://ch1nhpd.github.io/test/shortcodes/</link>
-    <pubDate>Wed, 15 Sep 2021 12:00:06 +0900</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    <atom:modified>Wed, 15 Sep 2021 12:00:06 +0900</atom:modified>
-    <guid>https://ch1nhpd.github.io/test/shortcodes/</guid>
-    <description>Markdownify box This is boxmd shortcode Simple box This is **box** shortcode Code tabs Make it easy to switch between different code
-javajavascript1  System.out.println(&amp;#39;Hello World!&amp;#39;);   1  console.log(&amp;#39;Hello World!&amp;#39;);   &#39;use strict&#39;;var containerId = JSON.parse(&#34;\&#34;ba50b53260040f49\&#34;&#34;);var containerElem = document.getElementById(containerId);var codetabLinks = null;var codetabContents = null;var ids = [];if (containerElem) {codetabLinks = containerElem.</description>
-    
-    <dc:creator>Phạm Đăng Chính</dc:creator>
-    <media:content url="https://ch1nhpd.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-    
-    
-    
-     
-      
-       <category>markdown</category>
-      
-     
-    
-    
-     
-      
-       <category>syntax</category>
-      
-     
-    
-    
-     
-      
-     
-    
-   </item>
-   
-   <item>
-    <title>Syntax highlighting</title>
-    <link>https://ch1nhpd.github.io/test/syntax-highlight/</link>
-    <pubDate>Wed, 15 Sep 2021 12:00:06 +0900</pubDate>
-    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
-    <atom:modified>Wed, 15 Sep 2021 12:00:06 +0900</atom:modified>
-    <guid>https://ch1nhpd.github.io/test/syntax-highlight/</guid>
-    <description>Code Syntax Highlighting Verify the following code blocks render as code blocks and highlight properly.
-More about tuning syntax highlighting is the Hugo documentation.
-Diff 1 2 3 4 5 6 7 8 9 10  *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; --- /path/to/new	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; *************** *** 1 **** ! This is a line. --- 1 --- ! This is a replacement line. It is important to spell -removed line +new line   *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; --- /path/to/new	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; *************** *** 1 **** !</description>
-    
-    <dc:creator>Jeus</dc:creator>
-    <media:content url="https://ch1nhpd.github.io/images/feature2/color-palette.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-    
-    
-    
-     
-      
-       <category>markdown</category>
-      
-     
-    
-    
-     
-      
-       <category>syntax</category>
-      
-     
-    
-    
-     
-      
-     
     
    </item>
    

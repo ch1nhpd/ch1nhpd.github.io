@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ch1nhpd.github.io/</loc>
-    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
+    <lastmod>2022-07-15T15:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,20 +15,17 @@
                 href="https://ch1nhpd.github.io/"
                 />
   </url><url>
-    <loc>https://ch1nhpd.github.io/tags/authentication-vulnerabilities/</loc>
-    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
+    <loc>https://ch1nhpd.github.io/tags/a01/</loc>
+    <lastmod>2022-07-15T15:00:06+07:00</lastmod>
   </url><url>
-    <loc>https://ch1nhpd.github.io/posts/authentication-vulnerabilities/</loc>
-    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/portswigger/</loc>
-    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
+    <loc>https://ch1nhpd.github.io/posts/a01-broken-access-control/</loc>
+    <lastmod>2022-07-15T15:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/posts/</loc>
-    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
+    <lastmod>2022-07-15T15:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/</loc>
-    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
+    <lastmod>2022-07-15T15:00:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,6 +36,30 @@
                 hreflang="vi"
                 href="https://ch1nhpd.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/top-10-owasp-2021/</loc>
+    <lastmod>2022-07-15T15:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/htb/</loc>
+    <lastmod>2022-06-17T15:10:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/posts/red-panda-htb/</loc>
+    <lastmod>2022-06-17T15:10:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/ssti/</loc>
+    <lastmod>2022-06-17T15:10:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/web/</loc>
+    <lastmod>2022-06-17T15:10:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/authentication-vulnerabilities/</loc>
+    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/posts/authentication-vulnerabilities/</loc>
+    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ch1nhpd.github.io/tags/portswigger/</loc>
+    <lastmod>2022-02-22T09:00:06+07:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/tags/file-upload/</loc>
     <lastmod>2022-01-22T15:00:06+07:00</lastmod>
@@ -146,9 +167,6 @@
     <loc>https://ch1nhpd.github.io/tags/ssrf/</loc>
     <lastmod>2021-10-03T15:00:06+07:00</lastmod>
   </url><url>
-    <loc>https://ch1nhpd.github.io/tags/web/</loc>
-    <lastmod>2021-10-03T15:00:06+07:00</lastmod>
-  </url><url>
     <loc>https://ch1nhpd.github.io/categories/web/</loc>
     <lastmod>2021-10-03T15:00:06+07:00</lastmod>
   </url><url>
@@ -178,24 +196,6 @@
   </url><url>
     <loc>https://ch1nhpd.github.io/archive/</loc>
     <lastmod>2021-09-16T22:22:22+07:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/tags/markdown/</loc>
-    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/test/markdown-syntax/</loc>
-    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/test/shortcodes/</loc>
-    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/categories/syntax/</loc>
-    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/test/syntax-highlight/</loc>
-    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://ch1nhpd.github.io/test/</loc>
-    <lastmod>2021-09-15T12:00:06+09:00</lastmod>
   </url><url>
     <loc>https://ch1nhpd.github.io/gallery/cartoon/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
