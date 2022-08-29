@@ -1668,7 +1668,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Jul 15, 2022 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;1&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🤖&nbsp;ch1nhpd</span>
   
@@ -1700,7 +1700,23 @@
   What&#39;s on this Page
  </button>
  <div class="expand__content expand__content--toc">
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#access-control-là-gì">Access Control là gì?</a>
+      <ul>
+        <li><a href="#vertical-access-controls">Vertical access controls</a></li>
+        <li><a href="#horizontal-access-controls">Horizontal access controls</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#attack">Attack</a></li>
+    <li><a href="#prevent">Prevent</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
  </div>
 </div>
 
@@ -1708,6 +1724,40 @@
 image: images/posts/name
 đổi màu :  <span style="color:lime">   chuỗi </span>
 -->
+<h2 id="overview">Overview</h2>
+<p>Broken Access Control là một lỗ hỏng bảo mật phổ biến nhất trong quá trình pentest website. Biểu hiện của nó là khi người dùng có thể thực hiện (chiếm) các chức năng nằm ngoài khả năng ban đầu của họ. Nguyên nhân chính dẫn đến lỗ hỏng này là do cơ chế xác thực và phân quyền của website chưa được hiệu quả hoặc bị bỏ quên&hellip;.</p>
+<p>Không phải tự nhiên mà từ vị trí thứ 5 (năm 2017) Broken Access Control vượt lên dẫn đầu trong Top 10 OWASP năm 2021. Vì vậy ta cùng tìm hiểu xem nó lợi hại như thế nào nhé!</p>
+<h2 id="access-control-là-gì">Access Control là gì?</h2>
+<p>Hiểu một cách đơn giản thì Access Control (hay authorization) là việc server áp dụng các ràng buộc, quy tắc để xác định xem người dùng có quyền truy cập vào chức năng hoặc tài nguyên nào đó hay không.</p>
+<!-- Đối với ứng dụng web, việc kiểm soát truy cập phụ thuộc vào xác thực (authentication) và quản lý phiên (Session management): -->
+<p>Broken Access Control đề cập đến phương thức tấn công mà các tác nhân độc hại sẽ xâm nhập, chiếm quyền sử dụng các tài nguyên được bảo vệ trên hệ thống một cách trái phép.</p>
+<p>Việc thiết kế và quản lý các biện pháp kiểm soát truy cập là một vấn đề hết sức phức tạp. Hơn nữa nó còn được thực hiện bởi con người chứ không phải công nghệ nên khả năng xảy ra lỗi là rất lớn.</p>
+<p>Access Control được chia thành 2 loại chính:</p>
+<h3 id="vertical-access-controls">Vertical access controls</h3>
+<p>Kiểm soát truy cập theo chiều dọc là cơ chế để hạn chế quyền truy cập vào chức năng của <strong>kiểu người dùng</strong> khác. Tức là mỗi kiểu người dùng (role) khác nhau sẽ có tập các chức năng khác nhau.</p>
+<blockquote>
+<p>VD: Role ADMIN mới có thể vào trang quản trị</p>
+</blockquote>
+<h3 id="horizontal-access-controls">Horizontal access controls</h3>
+<p>Kiểm soát truy cập theo chiều ngang là cơ chế để hạn chế quyền truy cập vào từng phần nhỏ tài nguyên của mỗi người dùng. Tức là cùng vào phần đấy nhưng với mỗi người lại cho một kết quả khác nhau.</p>
+<blockquote>
+<p>VD: user nào thì chỉ có thể xem các bài đăng private của user đấy thôi</p>
+</blockquote>
+<p><span style="color:lime"> Tóm lại là:  </span></p>
+<ul>
+<li><strong>DỌC</strong> -&gt; có được vào dùng hay không</li>
+<li><strong>NGANG</strong> -&gt; cùng vào được đấy nhưng mỗi người một kết quả khác</li>
+</ul>
+</br>
+Ngoài ra còn một loại nữa là **Context-dependent access controls**
+<h1 id="updating">[UPDATING&hellip;]</h1>
+<h2 id="attack">Attack</h2>
+<h2 id="prevent">Prevent</h2>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://portswigger.net/web-security/access-control">https://portswigger.net/web-security/access-control</a></li>
+<li><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">https://owasp.org/Top10/A01_2021-Broken_Access_Control/</a></li>
+</ul>
 
   </article>
   
@@ -2443,7 +2493,23 @@ document.addEventListener('DOMContentLoaded', function () {
   
  </div>
  <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#access-control-là-gì">Access Control là gì?</a>
+      <ul>
+        <li><a href="#vertical-access-controls">Vertical access controls</a></li>
+        <li><a href="#horizontal-access-controls">Horizontal access controls</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#attack">Attack</a></li>
+    <li><a href="#prevent">Prevent</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
  </div>
 </section>
 

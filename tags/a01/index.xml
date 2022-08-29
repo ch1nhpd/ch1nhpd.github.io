@@ -27,7 +27,7 @@
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Fri, 15 Jul 2022 15:00:06 +0700</atom:modified>
     <guid>https://ch1nhpd.github.io/posts/a01-broken-access-control/</guid>
-    <description>chuỗi --</description>
+    <description>chuỗi --Overview Broken Access Control là một lỗ hỏng bảo mật phổ biến nhất trong quá trình pentest website. Biểu hiện của nó là khi người dùng có thể thực hiện (chiếm) các chức năng nằm ngoài khả năng ban đầu của họ. Nguyên nhân chính dẫn đến lỗ hỏng này là do cơ chế xác thực và phân quyền của website chưa được hiệu quả hoặc bị bỏ quên&amp;hellip;.</description>
     
     <dc:creator>ch1nhpd</dc:creator>
     <media:content url="https://ch1nhpd.github.io/images/tmp.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
