@@ -1668,7 +1668,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Jul 15, 2022 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🤖&nbsp;ch1nhpd</span>
   
@@ -1712,7 +1712,12 @@
   </ul>
 
   <ul>
-    <li><a href="#attack">Attack</a></li>
+    <li><a href="#attack">Attack</a>
+      <ul>
+        <li><a href="#vertical-privilege-escalation">Vertical privilege escalation</a></li>
+        <li><a href="#horizontal-privilege-escalation">Horizontal privilege escalation</a></li>
+      </ul>
+    </li>
     <li><a href="#prevent">Prevent</a></li>
     <li><a href="#references">References</a></li>
   </ul>
@@ -1736,22 +1741,30 @@ image: images/posts/name
 <h3 id="vertical-access-controls">Vertical access controls</h3>
 <p>Kiểm soát truy cập theo chiều dọc là cơ chế để hạn chế quyền truy cập vào chức năng của <strong>kiểu người dùng</strong> khác. Tức là mỗi kiểu người dùng (role) khác nhau sẽ có tập các chức năng khác nhau.</p>
 <blockquote>
-<p>VD: Role ADMIN mới có thể vào trang quản trị</p>
+<p>VD: user không có Role ADMIN thì không thể vào trang quản trị</p>
 </blockquote>
+<p><img src="https://ch1nhpd.github.io/images/posts/Vertical-Access-Control-Illustration.png" alt="Vertical-Access-Control" /></p>
 <h3 id="horizontal-access-controls">Horizontal access controls</h3>
 <p>Kiểm soát truy cập theo chiều ngang là cơ chế để hạn chế quyền truy cập vào từng phần nhỏ tài nguyên của mỗi người dùng. Tức là cùng vào phần đấy nhưng với mỗi người lại cho một kết quả khác nhau.</p>
 <blockquote>
 <p>VD: user nào thì chỉ có thể xem các bài đăng private của user đấy thôi</p>
 </blockquote>
-<p><span style="color:lime"> Tóm lại là:  </span></p>
+<p><img src="https://ch1nhpd.github.io/images/posts/Horizontal-Access-Control-Illustration.png" alt="Horizontal-Access-Control" /><br />
+<span style="color:lime"> Tóm lại là:  </span></p>
 <ul>
-<li><strong>DỌC</strong> -&gt; có được vào dùng hay không</li>
+<li><strong>DỌC</strong> -&gt; có được vào dùng hay không <!-- (thường attacker sẽ cố gắng truy cập vào phần của người dùng cao hơn) --></li>
 <li><strong>NGANG</strong> -&gt; cùng vào được đấy nhưng mỗi người một kết quả khác</li>
 </ul>
 </br>
-Ngoài ra còn một loại nữa là **Context-dependent access controls**
+<p>Ngoài ra còn một loại nữa là <code>Context-dependent access controls</code>. Nó sẽ hạn chế quyền truy cập đến chức năng hoặc tài nguyên của ứng dụng dựa vào trạng thái của ứng dụng hoặc là tương tác của người dùng.</p>
+<blockquote>
+<p>VD: Trước khi đặt hàng thì có thể chỉnh sửa giỏ hàng thoải mái. Nhưng sau khi đã đặt hàng thì 📛<em><strong>NO</strong></em>📛</p>
+</blockquote>
+<p><img src="https://ch1nhpd.github.io/images/posts/Context-Dependent-Access-Control-Illustration.png" alt="Context-Dependent-Access-Control" /></p>
 <h1 id="updating">[UPDATING&hellip;]</h1>
 <h2 id="attack">Attack</h2>
+<h3 id="vertical-privilege-escalation">Vertical privilege escalation</h3>
+<h3 id="horizontal-privilege-escalation">Horizontal privilege escalation</h3>
 <h2 id="prevent">Prevent</h2>
 <h2 id="references">References</h2>
 <ul>
@@ -2505,7 +2518,12 @@ document.addEventListener('DOMContentLoaded', function () {
   </ul>
 
   <ul>
-    <li><a href="#attack">Attack</a></li>
+    <li><a href="#attack">Attack</a>
+      <ul>
+        <li><a href="#vertical-privilege-escalation">Vertical privilege escalation</a></li>
+        <li><a href="#horizontal-privilege-escalation">Horizontal privilege escalation</a></li>
+      </ul>
+    </li>
     <li><a href="#prevent">Prevent</a></li>
     <li><a href="#references">References</a></li>
   </ul>
