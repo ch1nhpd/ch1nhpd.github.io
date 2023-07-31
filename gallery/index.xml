@@ -27,7 +27,7 @@
     <author>pdc1761.n@gmail.com (Phạm Đăng Chính)</author>
     <atom:modified>Mon, 31 Jul 2023 10:20:16 +0900</atom:modified>
     <guid>https://ch1nhpd.github.io/gallery/cve/</guid>
-    <description>/* Định dạng chữ màu liên tục */@keyframes changeColor {0% { color: red; }25% { color: blue; }50% { color: green; }75% { color: orange; }100% { color: red; }}.changing-text {animation: changeColor 3s infinite;}Here are some CVEs found by me CVE-2022-2733 CVE-2023-37916 CVE-2023-37917  </description>
+    <description>/* Định dạng chữ màu liên tục */@keyframes changeColor {0% { color: red; }25% { color: blue; }50% { color: green; }75% { color: orange; }100% { color: red; }}.changing-text {animation: changeColor 3s infinite;}Here are some CVEs found by me CVE-2022-2733 CVE-2023-37916 CVE-2023-37917 CVE-2023-4005  </description>
     
     <dc:creator>Phạm Đăng Chính</dc:creator>
     <media:content url="https://ch1nhpd.github.io/images/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
