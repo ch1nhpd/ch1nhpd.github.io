@@ -13,5 +13,5 @@ const h2 = CryptoJS.SHA512(h1+path+pass).toString();
   if (h2=="080b97e4af032faf262d218dc09016a46c3c90442dce37d1efd72fa18241df0f320b730bbd0b88e599151ff01bdb7edcdb1235c4c751b415ba849135dde4d446") { 
      location="https://ch1nhpd.github.io/"+path ;
     } 
-    else { alert("Đã bảo không cho xem mà!"+h2) } 
+    else { alert("Đã bảo không cho xem mà!") } 
 }
